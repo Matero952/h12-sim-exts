@@ -1,0 +1,1 @@
+/home/mateo/.local/share/ov/data/exts/v2/omni.usd.core-e25ab2a849e29248

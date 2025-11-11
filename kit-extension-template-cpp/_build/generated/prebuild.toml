@@ -1,0 +1,404 @@
+[[root]]
+link = [
+	["${root}/source/apps", "${root}/_build/${platform}/${config}/apps"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/PACKAGE-LICENSES"],
+]
+
+[[root]]
+link = [
+	["${root}/tools/packman", "${root}/_build/${platform}/${config}/dev/tools/packman"],
+]
+
+[[root]]
+copy = [
+	["${root}/repo${shell_ext}", "${root}/_build/${platform}/${config}/dev"],
+	["${root}/tools/repoman/repoman.py", "${root}/_build/${platform}/${config}/dev/tools/repoman"],
+]
+
+[[root]]
+copy = [
+	["${root}/deps/repo-deps.packman.xml", "${root}/_build/${platform}/${config}/dev/deps"],
+]
+
+[[root]]
+copy = [
+	["/home/mateo/.cache/packman/chk/repo_kit_tools/1.6.0/kit-template/tools/autopull/pull_extensions/${config}/pull_kit_sdk${shell_ext}", "${root}/_build/${platform}/${config}"],
+	["/home/mateo/.cache/packman/chk/repo_kit_tools/1.6.0/kit-template/tools/autopull/pull_extensions/tinypull.py", "${root}/_build/${platform}/${config}/dev/tools"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.actions/config", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.actions/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.actions/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.actions/PACKAGE-LICENSES/omni.example.cpp.actions-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.actions/data", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.actions/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.actions/docs", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.actions/docs"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.actions/omni", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.actions/omni"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usd_physics/config", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usd_physics/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usd_physics/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usd_physics/PACKAGE-LICENSES/omni.example.cpp.usd_physics-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usd_physics/data", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usd_physics/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usd_physics/docs", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usd_physics/docs"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usd_physics/omni", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usd_physics/omni"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.ui/config", "${root}/_build/${platform}/${config}/exts/omni.example.python.ui/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni.example.python.ui/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni.example.python.ui/PACKAGE-LICENSES/omni.example.python.ui-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.ui/data", "${root}/_build/${platform}/${config}/exts/omni.example.python.ui/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.ui/docs", "${root}/_build/${platform}/${config}/exts/omni.example.python.ui/docs"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.ui/omni", "${root}/_build/${platform}/${config}/exts/omni.example.python.ui/omni"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.hello_world/config", "${root}/_build/${platform}/${config}/exts/omni.example.python.hello_world/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni.example.python.hello_world/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni.example.python.hello_world/PACKAGE-LICENSES/omni.example.python.hello_world-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.hello_world/data", "${root}/_build/${platform}/${config}/exts/omni.example.python.hello_world/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.hello_world/docs", "${root}/_build/${platform}/${config}/exts/omni.example.python.hello_world/docs"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.hello_world/omni", "${root}/_build/${platform}/${config}/exts/omni.example.python.hello_world/omni"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.usdrt_mesh/config", "${root}/_build/${platform}/${config}/exts/omni.example.python.usdrt_mesh/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni.example.python.usdrt_mesh/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni.example.python.usdrt_mesh/PACKAGE-LICENSES/omni.example.python.usdrt_mesh-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.usdrt_mesh/data", "${root}/_build/${platform}/${config}/exts/omni.example.python.usdrt_mesh/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.usdrt_mesh/docs", "${root}/_build/${platform}/${config}/exts/omni.example.python.usdrt_mesh/docs"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.usdrt_mesh/omni", "${root}/_build/${platform}/${config}/exts/omni.example.python.usdrt_mesh/omni"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.usdrt/config", "${root}/_build/${platform}/${config}/exts/omni.example.python.usdrt/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni.example.python.usdrt/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni.example.python.usdrt/PACKAGE-LICENSES/omni.example.python.usdrt-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.usdrt/data", "${root}/_build/${platform}/${config}/exts/omni.example.python.usdrt/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.usdrt/docs", "${root}/_build/${platform}/${config}/exts/omni.example.python.usdrt/docs"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.usdrt/omni", "${root}/_build/${platform}/${config}/exts/omni.example.python.usdrt/omni"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.hello_world/config", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.hello_world/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.hello_world/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.hello_world/PACKAGE-LICENSES/omni.example.cpp.hello_world-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.hello_world/data", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.hello_world/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.hello_world/docs", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.hello_world/docs"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.hello_world/omni", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.hello_world/omni"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/h12_asset_ext/config", "${root}/_build/${platform}/${config}/exts/h12_asset_ext/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/h12_asset_ext/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/h12_asset_ext/PACKAGE-LICENSES/h12_asset_ext-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/h12_asset_ext/data", "${root}/_build/${platform}/${config}/exts/h12_asset_ext/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/h12_asset_ext/docs", "${root}/_build/${platform}/${config}/exts/h12_asset_ext/docs"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usd/config", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usd/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usd/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usd/PACKAGE-LICENSES/omni.example.cpp.usd-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usd/data", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usd/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usd/docs", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usd/docs"],
+]
+
+[[root]]
+copy = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usd/bindings/python/omni.example.cpp.usd/*.py", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usd/omni/example/cpp/usd"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usd/python/impl", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usd/omni/example/cpp/usd/impl"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usd/python/tests", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usd/omni/example/cpp/usd/tests"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.pybind/config", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.pybind/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.pybind/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.pybind/PACKAGE-LICENSES/omni.example.cpp.pybind-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.pybind/data", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.pybind/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.pybind/docs", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.pybind/docs"],
+]
+
+[[root]]
+copy = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.pybind/bindings/python/omni.example.cpp.pybind/*.py", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.pybind/omni/example/cpp/pybind"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.pybind/python/impl", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.pybind/omni/example/cpp/pybind/impl"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.pybind/python/tests", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.pybind/omni/example/cpp/pybind/tests"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.commands/config", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.commands/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.commands/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.commands/PACKAGE-LICENSES/omni.example.cpp.commands-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.commands/data", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.commands/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.commands/docs", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.commands/docs"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.commands/omni", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.commands/omni"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usdrt/config", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usdrt/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usdrt/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usdrt/PACKAGE-LICENSES/omni.example.cpp.usdrt-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usdrt/data", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usdrt/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usdrt/docs", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usdrt/docs"],
+]
+
+[[root]]
+copy = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usdrt/bindings/python/omni.example.cpp.usdrt/*.py", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usdrt/omni/example/cpp/usdrt"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usdrt/python/impl", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usdrt/omni/example/cpp/usdrt/impl"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usdrt/python/tests", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.usdrt/omni/example/cpp/usdrt/tests"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.tasking/config", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.tasking/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.tasking/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.tasking/PACKAGE-LICENSES/omni.example.cpp.tasking-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.tasking/data", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.tasking/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.tasking/docs", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.tasking/docs"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.tasking/omni", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.tasking/omni"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.omnigraph_node/config", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.omnigraph_node/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.omnigraph_node/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.omnigraph_node/PACKAGE-LICENSES/omni.example.cpp.omnigraph_node-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.omnigraph_node/data", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.omnigraph_node/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.omnigraph_node/docs", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.omnigraph_node/docs"],
+]
+
+[[root]]
+copy = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.omnigraph_node/omni/example/cpp/omnigraph_node/__init__.py", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.omnigraph_node/omni/example/cpp/omnigraph_node"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.ui_widget/config", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.ui_widget/config"],
+]
+
+[[root]]
+link = [
+	["${root}/_build/PACKAGE-LICENSES", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.ui_widget/PACKAGE-LICENSES/dependencies"],
+]
+
+[[root]]
+copy = [
+	["${root}/_build/${platform}/${config}/kit/dev/tools/license-templates/ext-LICENSE-TEMPLATE.md", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.ui_widget/PACKAGE-LICENSES/omni.example.cpp.ui_widget-LICENSE.md"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.ui_widget/data", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.ui_widget/data"],
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.ui_widget/docs", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.ui_widget/docs"],
+]
+
+[[root]]
+copy = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.ui_widget/bindings/python/omni.example.cpp.ui_widget/*.py", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.ui_widget/omni/example/cpp/ui_widget"],
+]
+
+[[root]]
+link = [
+	["/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.ui_widget/python/tests", "${root}/_build/${platform}/${config}/exts/omni.example.cpp.ui_widget/omni/example/cpp/ui_widget/tests"],
+]
+

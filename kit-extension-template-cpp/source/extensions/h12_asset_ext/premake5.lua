@@ -6,7 +6,7 @@ project_ext(ext)
 repo_build.prebuild_link {
     { "data", ext.target_dir.."/data" },
     { "docs", ext.target_dir.."/docs" },
-    { "omni", ext.target_dir.."/omni" },
+    -- { "omni", ext.target_dir.."/omni" },
 }
 
 -- Build the C++ plugin that will be loaded by the extension.
@@ -16,3 +16,4 @@ project_ext_plugin(ext, "h12_assets_ext.cpp.plugin")
     local plugin_name = "h12_assets_ext.cpp"
     add_files("source", "plugins/"..plugin_name)
     includedirs { "plugins/"..plugin_name }
+    exceptionhandling "On"

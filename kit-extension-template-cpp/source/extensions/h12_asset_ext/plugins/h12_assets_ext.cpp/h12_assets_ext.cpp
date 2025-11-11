@@ -6,16 +6,16 @@
 
 #include <cstdlib>
 #include <iostream>
-#include <stdexcept>
+// #include <stdexcept>
 #include <fstream>
 
 const struct carb::PluginImplDesc pluginImplDesc = { "h12_assets_ext.cpp.plugin",
                                                      "The extension to load assets for h12-sim", "Matero952",
                                                      carb::PluginHotReload::eEnabled, "dev" };
 CARB_PLUGIN_IMPL_DEPS(carb::eventdispatcher::IEventDispatcher)
-const std::string h12AssetsEnvVar = "H12_ASSETS_PATH";
-const char* pH12AssestsEnvVar = (h12AssetsEnvVar.c_str());
-bool errorWasThrown = false;
+// const std::string h12AssetsEnvVar = "H12_ASSETS_PATH";
+// const char* pH12AssestsEnvVar = (h12AssetsEnvVar.c_str());
+// bool errorWasThrown = false;
 // const char* pH12AssestsEnvVar = &h12AssetsEnvVar;
 namespace h12_assets_ext {
 namespace cpp {
@@ -30,25 +30,33 @@ namespace cpp {
                             omni::kit::kGlobalEventPostUpdate,
                             [this](const carb::eventdispatcher::Event& e) {onUpdate(); });
                 }
-                if (!checkAssetsExist(pH12AssestsEnvVar)) {
-                    // throw std::runtime_error("Please correctly clone the assets github repository and set the H12_ASSETS_PATH environment variable to it.");
-                    std::cout << "Please correctly clone the repo";
-                    errorWasThrown = true;
-                }
+                bootstrapAssets();
             }
-
-            bool checkAssetsExist(const char* h12AssetsRepoPath) {
-                if (std::getenv(h12AssetsRepoPath)) {
-                    //if the env variable is set, check directory structure
-                    std::string stringH12AssetsRepoPath(h12AssetsRepoPath);
-
-                    std::ifstream inputFile(stringH12AssetsRepoPath + "/README.md");
-                    if (inputFile.is_open()) {
-                        return true;
+            
+            void bootstrapAssets() {
+                if (std::getenv("H12_ASSETS_PATH") == std::string("")) {
+                    throw std::runtime_error("'H12_ASSETS_PATH' is not set. Please clone the github repository and set the H12_ASSETS_PATH to its location.");
+                }
+                else {
+                    std::ifstream fooFile(std::getenv("H12_ASSETS_PATH") + std::string("/README.md"));
+                    if (!fooFile.is_open()) {
+                        throw std::runtime_error(std::getenv("H12_ASSETS_PATH") + std::string("is not the correct path."));
                     }
                 }
-                return false;
             }
+
+            // bool checkAssetsExist(const char* h12AssetsRepoPath) {
+            //     if (std::getenv(h12AssetsRepoPath)) {
+            //         //if the env variable is set, check directory structure
+            //         std::string stringH12AssetsRepoPath(h12AssetsRepoPath);
+
+            //         std::ifstream inputFile(stringH12AssetsRepoPath + "/README.md");
+            //         if (inputFile.is_open()) {
+            //             return true;
+            //         }
+            //     }
+            //     return false;
+            // }
 
             void onShutdown() override {
                 std::cout << "H12 Assets Extension shutting down. \n";
@@ -57,10 +65,10 @@ namespace cpp {
 
             void onUpdate() {
                 if (m_updateCounter % 1000 == 0) {
-                    // std::cout << "Hi from the H12 Assets Extensi"
-                    if (errorWasThrown) {
-                        printf("ERROR WAS THROWN");
-                    }
+                    std::cout << "Hi from the H12 Assets Extensi";
+                    // if (errorWasThrown) {
+                    //     printf("ERROR WAS THROWN");
+                    // }
 
                     // printf("Hi from the H12 Assets Extenson! %d updates counted. \n", m_updateCounter);
                 }

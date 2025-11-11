@@ -1,0 +1,1167 @@
+[Info] [carb] Logging to file: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/logs/Kit/exts.deps.generated/0.0/kit_20251110_185258.log
+2025-11-11T01:52:58Z [0ms] [Info] [carb.crashreporter-breakpad.plugin] upload enabled: true
+2025-11-11T01:52:58Z [0ms] [Info] [omni.kit.app.plugin] App Name: 'exts.deps.generated', App Version: '0.0.0', Kit Version: '108.0.0+feature.221586.5941509b.gl', Kernel Version: '208.1.1+release.9884.23131486.gl'
+2025-11-11T01:52:58Z [0ms] [Info] [omni.kit.app.plugin] Cmd: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/kit/kit /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps/exts.deps.generated.kit --allow-root --portable --ext-precache-mode --/crashreporter/gatherUserStory=0 --/app/settings/persistent=0 --/app/settings/loadUserConfig=0 --/app/extensions/generateVersionLock=1 --/app/extensions/parallelPullEnabled=1 --/app/enableStdoutOutput=1 --/app/extensions/detailedSolverExplanation=1 --/app/extensions/registryEnabled=1 --/app/extensions/mkdirExtFolders=0 --/app/extensions/registryCacheFull='/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache' --/log/flushStandardStreamOutput=1 "--/exts/omni.kit.registry.nucleus/registries/0/name="kit/default"" "--/exts/omni.kit.registry.nucleus/registries/0/url="https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/${kit_version_major}/shared"" "--/exts/omni.kit.registry.nucleus/registries/1/name="kit/sdk"" "--/exts/omni.kit.registry.nucleus/registries/1/url="https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/${kit_version_short}/${kit_git_hash}"" --/app/extensions/target/config=release --ext-folder /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions --ext-folder /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps --/app/extensions/generateVersionLockSkipLocalExts=1 --portable-root /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release --/app/extensions/generateVersionLockSkipLocalExts=1
+2025-11-11T01:52:58Z [0ms] [Info] [omni.kit.app.plugin] Applied configs: [/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/kernel/config/kit-core.json, /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps/exts.deps.generated.kit]
+2025-11-11T01:52:58Z [0ms] [Info] [omni.kit.app.plugin] Non-existent configs: [/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/omni_configs/privacy.toml, /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps/exts.deps.generated.gen.kit, /home/mateo/Documents/Kit/shared/user.toml, /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps/deps/user.toml, /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps/deps/exts.deps.generated/user.toml, /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/deps/user.toml, /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/deps/exts.deps.generated/user.toml, /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/deps/user.toml, /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/deps/exts.deps.generated/user.toml, /home/mateo/github/h12_sim_exts/deps/user.toml, /home/mateo/github/h12_sim_exts/deps/exts.deps.generated/user.toml, /home/mateo/github/deps/user.toml, /home/mateo/github/deps/exts.deps.generated/user.toml, /usr/share/NVIDIA Corporation/kit/kit.config.toml, /usr/share/NVIDIA Corporation/kit/exts.deps.generated/kit.config.toml]
+2025-11-11T01:52:58Z [0ms] [Info] [omni.kit.app.plugin] Portable Root: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release'
+2025-11-11T01:52:58Z [0ms] [Info] [omni.kit.app.plugin] Tokens:
+{
+    "exe-path": "/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release",
+    "exe-filename": "kit",
+    "local-config-path": "/home/mateo/github/h12_sim_exts/kit-extension-template-cpp",
+    "custom-config-path": "/home/mateo/github/h12_sim_exts/kit-extension-template-cpp",
+    "cli-config-path": "/home/mateo/github/h12_sim_exts/kit-extension-template-cpp",
+    "omni_config": "/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/omni_configs",
+    "omni_data": "/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/data",
+    "omni_logs": "/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/logs",
+    "omni_cache": "/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/cache",
+    "omni_global_config": "/home/mateo/.nvidia-omniverse/config",
+    "omni_global_data": "/home/mateo/.local/share/ov/data",
+    "omni_global_logs": "/home/mateo/.nvidia-omniverse/logs",
+    "omni_global_cache": "/home/mateo/.cache/ov",
+    "temp": "/tmp/carb.isrFfI",
+    "kit": "/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release",
+    "drive": "/",
+    "app": "/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps",
+    "resources": "/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/resources",
+    "fonts": "/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/resources/fonts",
+    "glyphs": "/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/resources/glyphs",
+    "icons": "/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/resources/icons",
+    "sounds": "/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/resources/sounds",
+    "models": "/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/resources/models",
+    "materials": "/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/resources/materials",
+    "config": "release",
+    "platform": "linux-x86_64",
+    "bindings_ext": ".so",
+    "exe_ext": "",
+    "shell_ext": ".sh",
+    "lib_ext": ".so",
+    "lib_prefix": "lib",
+    "session_id": "18314405448029401247",
+    "omni_documents": "/home/mateo/Documents",
+    "shared_documents": "/home/mateo/Documents/Kit/shared",
+    "omni_program_data": "/usr/share",
+    "shared_program_data": "/usr/share/NVIDIA Corporation/kit",
+    "app_program_data": "/usr/share/NVIDIA Corporation/kit/exts.deps.generated",
+    "kit_version": "108.0.0+feature.221586.5941509b.gl",
+    "usd_version": "25.02",
+    "python_version": "3.12",
+    "python": "/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/python/bin/python3",
+    "kit_version_short": "108.0",
+    "kit_version_major": "108",
+    "kit_version_minor": "0",
+    "kit_version_patch": "0",
+    "kit_git_hash": "5941509b",
+    "app_version": "0.0.0",
+    "app_version_short": "0.0",
+    "app_name": "exts.deps.generated",
+    "app_filename": "exts.deps.generated",
+    "data": "/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/data/Kit/exts.deps.generated/0.0",
+    "logs": "/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/logs/Kit/exts.deps.generated/0.0",
+    "cache": "/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/cache/Kit/108.0/5941509b",
+    "appcache": "/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/cache/Kit/108.0/5941509b",
+    "cache_postfix": "Kit/108.0/5941509b",
+    "app_documents": "/home/mateo/Documents/Kit/apps/exts.deps.generated",
+    "documents": "/home/mateo/Documents/Kit/apps/exts.deps.generated",
+    "start_timestamp": "20251110_185258"
+}
+2025-11-11T01:52:58Z [0ms] [Info] [carb] Plugin carb.profiler-cpu.plugin is already a dependency of carb.tasking.plugin; not changing unload order
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] Extension path: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extscache/' doesn't exist.
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] Extension path: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/exts' doesn't exist.
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] Extension path: '/home/mateo/Documents/Kit/apps/exts.deps.generated/exts' doesn't exist.
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext manager] preferLocalVersions: 1
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] Extension system targets:
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin]   kitHash: 5941509b
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin]   config: release
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin]   python: cp312
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin]   usd: u81f8+stock+25.02+cxx11
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin]   platform: linux-x86_64
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin]   kit: 108.0.0
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps/exts.deps.generated.kit' (path type: 1, dev: 0)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache' (path type: 4, dev: 0)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps' (path type: 0, dev: 0)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions' (path type: 0, dev: 0)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extsPhysics' (path type: 0, dev: 0)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/Documents/Kit/shared/exts' (path type: 0, dev: 0)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore' (path type: 0, dev: 0)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/exts' (path type: 0, dev: 0)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/apps' (path type: 0, dev: 0)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.app.kit.dev-1.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps/omni.app.kit.dev.kit)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.app.example.extension_browser-0.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps/omni.app.example.extension_browser.kit)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.app.example.viewport-0.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps/omni.app.example.viewport.kit)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.example.python.hello_world-1.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.hello_world)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.example.cpp.ui_widget-1.0.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.ui_widget)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.example.python.usdrt_mesh-0.0.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.usdrt_mesh)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.example.cpp.hello_world-1.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.hello_world)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: h12_asset_ext-0.0.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/h12_asset_ext)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.example.python.ui-1.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.ui)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.example.cpp.usd_physics-1.0.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usd_physics)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.app.empty-0.1.0] registered (path: /home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/apps/omni.app.empty.kit)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.app.viewport-1.0.0] registered (path: /home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/apps/omni.app.viewport.kit)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.example.cpp.tasking-1.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.tasking)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.example.cpp.actions-1.0.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.actions)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.example.cpp.usd-1.0.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usd)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.example.cpp.omnigraph_node-1.0.2] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.omnigraph_node)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.client.lib-1.1.0] registered (path: /home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.client.lib)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.example.cpp.usdrt-1.0.2] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usdrt)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.example.python.usdrt-1.0.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.usdrt)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.app.hydra-1.0.0] registered (path: /home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/apps/omni.app.hydra.kit)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.app.full-1.0.1] registered (path: /home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/apps/omni.app.full.kit)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.example.cpp.commands-1.0.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.commands)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.app.mini-0.1.1] registered (path: /home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/apps/omni.app.mini.kit)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.example.cpp.pybind-1.0.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.pybind)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.kit.async_engine-0.0.3] registered (path: /home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.kit.async_engine)
+2025-11-11T01:52:58Z [1ms] [Info] [omni.ext.plugin] [ext: omni.kit.registry.nucleus-0.0.0] registered (path: /home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.kit.registry.nucleus)
+2025-11-11T01:52:58Z [2ms] [Info] [omni.ext.plugin] [ext: omni.app.dev-1.0.0] registered (path: /home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/apps/omni.app.dev.kit)
+2025-11-11T01:52:58Z [2ms] [Info] [omni.ext.plugin] [ext: omni.app.editor.base-1.0.0] registered (path: /home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/apps/omni.app.editor.base.kit)
+2025-11-11T01:52:58Z [2ms] [Info] [carb] Initializing plugin: carb.scripting-python.plugin (interfaces: [carb::scripting::IScripting v1.0]) (impl: carb.scripting-python.plugin)
+2025-11-11T01:52:58Z [2ms] [Info] [carb.scripting-python.plugin] Attempting to initialize Python interpreter. Failure of doing it will lead to the termination of the application.
+2025-11-11T01:52:58Z [8ms] [Info] [carb.scripting-python.plugin] Python interpreter was successfully initialized.
+2025-11-11T01:52:58Z [8ms] [Info] [carb] Initializing plugin: carb.variant.plugin (interfaces: [carb::variant::IVariant v0.1]) (impl: carb.variant.plugin)
+2025-11-11T01:52:58Z [73ms] [Info] [omni.kit.app._impl] python GC: gc.disable()
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] [ext manager] preferLocalVersions: 1
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Processing exts enabling request: 'exts.deps.generated-0.0.0,omni.convexdecomposition-108.0.4,omni.kvdb-108.0.4,omni.localcache-108.0.4,omni.physics-108.0.4,omni.physics.stageupdate-108.0.4,omni.physx-108.0.4,omni.physx.cooking-108.0.4,omni.physx.foundation-108.0.4,omni.usd.schema.physx-108.0.4,omni.usdphysics-108.0.4'
+2025-11-11T01:52:58Z [74ms] [Info] [omni.kit.app.plugin] [0.084s] Failed to solve some dependencies locally, syncing with extension registry...
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Failed to resolve extension dependencies. Failure hints:
+	Can't find extension with name: omni.convexdecomposition
+ Available versions:
+	 (none found)
+	Can't find extension with name: omni.kvdb
+ Available versions:
+	 (none found)
+	Can't find extension with name: omni.localcache
+ Available versions:
+	 (none found)
+	Can't find extension with name: omni.physics
+ Available versions:
+	 (none found)
+	Can't find extension with name: omni.physics.stageupdate
+ Available versions:
+	 (none found)
+	Can't find extension with name: omni.physx
+ Available versions:
+	 (none found)
+	Can't find extension with name: omni.physx.cooking
+ Available versions:
+	 (none found)
+	Can't find extension with name: omni.physx.foundation
+ Available versions:
+	 (none found)
+	Can't find extension with name: omni.usd.schema.physx
+ Available versions:
+	 (none found)
+	Can't find extension with name: omni.usdphysics
+ Available versions:
+	 (none found)
+ Synced registries:
+	 (none)
+
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Enabling registry extension...
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Extension system targets:
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin]   kitHash: 5941509b
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin]   config: release
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin]   python: cp312
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin]   usd: u81f8+stock+25.02+cxx11
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin]   platform: linux-x86_64
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin]   kit: 108.0.0
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps/exts.deps.generated.kit' (path type: 1, dev: 0)
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache' (path type: 4, dev: 0)
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps' (path type: 0, dev: 0)
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions' (path type: 0, dev: 0)
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extsPhysics' (path type: 0, dev: 0)
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/Documents/Kit/shared/exts' (path type: 0, dev: 0)
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore' (path type: 0, dev: 0)
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/exts' (path type: 0, dev: 0)
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/apps' (path type: 0, dev: 0)
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Processing exts enabling request: 'omni.kit.registry.nucleus'
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] Extensions dependency solver solution:
+[ext: omni.kit.registry.nucleus-0.0.0] deps:
+ -> 'omni.client.lib' = { version='^' } selected: [omni.client.lib-1.1.0] Available versions:
+	 - [omni.client.lib-1.1.0+lx64.r.cp312] (/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.client.lib)
+[ext: omni.client.lib-1.1.0] deps:
+ -> 'omni.kit.async_engine' = { version='^' } selected: [omni.kit.async_engine-0.0.3] Available versions:
+	 - [omni.kit.async_engine-0.0.3] (/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.kit.async_engine)
+[ext: omni.kit.async_engine-0.0.3] no deps
+ Synced registries:
+	 (none)
+
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] [ext: omni.kit.registry.nucleus-0.0.0] applying settings
+2025-11-11T01:52:58Z [74ms] [Info] [omni.ext.plugin] [ext: omni.kit.async_engine-0.0.3] applying settings
+2025-11-11T01:52:58Z [74ms] [Info] [carb] Plugin carb.scripting-python.plugin is already a dependency of omni.kit.app.plugin; not changing unload order
+2025-11-11T01:52:58Z [75ms] [Info] [omni.ext.plugin] About to startup: [ext: omni.kit.async_engine-0.0.3] (order: 0) Triggered by: omni.client.lib-1.1.0 (path: /home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.kit.async_engine)
+2025-11-11T01:52:58Z [75ms] [Info] [omni.kit.app.plugin] [0.085s] [ext: omni.kit.async_engine-0.0.3] startup
+2025-11-11T01:52:58Z [75ms] [Info] [omni.ext._impl.utils] -> func:_refresh_cache took: 0.0009s
+2025-11-11T01:52:58Z [76ms] [Info] [omni.ext._impl._internal] Searching for classes derived from 'omni.ext.IExt' in 'omni.kit.async_engine' ('/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.kit.async_engine')
+2025-11-11T01:52:58Z [76ms] [Info] [omni.ext._impl._internal] Found class `_AsyncEngineDriver` derived from `omni.ext.IExt` in module: 'omni.kit.async_engine' in '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.kit.async_engine'. Calling `on_startup`.
+2025-11-11T01:52:58Z [76ms] [Info] [omni.kit.async_engine.async_engine] policy: <asyncio.unix_events._UnixDefaultEventLoopPolicy object at 0x7998a009d370> from /exts/omni.kit.async_engine/event_loop_policy_unix = "os_default"
+2025-11-11T01:52:58Z [76ms] [Info] [omni.kit.async_engine.async_engine] loop:   <_UnixSelectorEventLoop running=False closed=False debug=False> from /exts/omni.kit.async_engine/event_loop_unix = "os_default"
+2025-11-11T01:52:58Z [76ms] [Info] [omni.ext.plugin] [ext: omni.kit.async_engine-0.0.3] started, startup time: 1 (ms)
+2025-11-11T01:52:58Z [77ms] [Info] [omni.ext.plugin] About to startup: [ext: omni.client.lib-1.1.0] (order: 0) Triggered by: omni.kit.registry.nucleus-0.0.0 (path: /home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.client.lib)
+2025-11-11T01:52:58Z [77ms] [Info] [omni.kit.app.plugin] [0.087s] [ext: omni.client.lib-1.1.0] startup
+2025-11-11T01:52:58Z [82ms] [Info] [omni.ext.plugin] Loaded the dynamic library from /home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.client.lib/bin/libomniclient.so
+2025-11-11T01:52:58Z [86ms] [Info] [omni.ext._impl._internal] Searching for classes derived from 'omni.ext.IExt' in 'omni.client' ('/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.client.lib')
+2025-11-11T01:52:58Z [86ms] [Info] [omni.ext.plugin] [ext: omni.client.lib-1.1.0] started, startup time: 9 (ms)
+2025-11-11T01:52:58Z [86ms] [Info] [omni.ext.plugin] About to startup: [ext: omni.kit.registry.nucleus-0.0.0] (order: -1000) Triggered by API/CLI/Config. (path: /home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.kit.registry.nucleus)
+2025-11-11T01:52:58Z [86ms] [Info] [omni.kit.app.plugin] [0.096s] [ext: omni.kit.registry.nucleus-0.0.0] startup
+2025-11-11T01:52:58Z [101ms] [Info] [omni.ext._impl._internal] Searching for classes derived from 'omni.ext.IExt' in 'omni.kit.registry.nucleus' ('/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.kit.registry.nucleus')
+2025-11-11T01:52:58Z [101ms] [Info] [omni.ext._impl._internal] Found class `RegistryProviderExt` derived from `omni.ext.IExt` in module: 'omni.kit.registry.nucleus' in '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.kit.registry.nucleus'. Calling `on_startup`.
+2025-11-11T01:52:58Z [101ms] [Info] [omni.kit.registry.nucleus.utils.s3_mock] S3 mock not enabled in settings
+2025-11-11T01:52:58Z [101ms] [Info] [omni.kit.registry.nucleus.utils.common] global cache path: /home/mateo/.local/share/ov/data/exts/v2
+2025-11-11T01:52:58Z [101ms] [Info] [omni.kit.registry.nucleus.registry_manager] 'trusted' is not set for registry 'kit/default' in '/exts/omni.kit.registry.nucleus/registries'
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] [v2] creating RegistryIndexV2(), index url: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/108/shared/v2, index local cache: /home/mateo/.local/share/ov/data/exts/v2/index/a319d21e
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] [v1] creating RegistryIndexV1(), index url: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/108/shared/3
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.registry_manager] 'trusted' is not set for registry 'kit/sdk' in '/exts/omni.kit.registry.nucleus/registries'
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] [v2] creating RegistryIndexV2(), index url: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/108.0/5941509b/v2, index local cache: /home/mateo/.local/share/ov/data/exts/v2/index/b943a269
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] [v1] creating RegistryIndexV1(), index url: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/108.0/5941509b/3
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.registry_manager] 'trusted' is not set for registry 'kit/prod/default' in '/exts/omni.kit.registry.nucleus/registries'
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/default] [v2] creating RegistryIndexV2(), index url: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/108/shared/v2, index local cache: /home/mateo/.local/share/ov/data/exts/v2/index/a319d21e
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/default] [v1] creating RegistryIndexV1(), index url: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/108/shared/3
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.registry_manager] 'trusted' is not set for registry 'kit/prod/sdk' in '/exts/omni.kit.registry.nucleus/registries'
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/sdk] [v2] creating RegistryIndexV2(), index url: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/108.0/5941509b/v2, index local cache: /home/mateo/.local/share/ov/data/exts/v2/index/b943a269
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/sdk] [v1] creating RegistryIndexV1(), index url: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/108.0/5941509b/3
+2025-11-11T01:52:58Z [102ms] [Info] [omni.ext.plugin] [ext: omni.kit.registry.nucleus-0.0.0] started, startup time: 16 (ms)
+2025-11-11T01:52:58Z [102ms] [Info] [omni.ext.plugin] Syncing extension registry...
+2025-11-11T01:52:58Z [102ms] [Info] [omni.ext.plugin] Syncing extension registry for provider 'kit/default'.
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] sync_index called.
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] [v2] _ensure_synced(resync=False) called
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] [v2] Syncing index...
+2025-11-11T01:52:58Z [102ms] [Info] [omni.kit.registry.nucleus.index_v2.index_sync] trying to take index_sync lock on: /home/mateo/.local/share/ov/data/exts/v2/index/a319d21e/registry.lock
+2025-11-11T01:52:58Z [103ms] [Info] [omni.kit.registry.nucleus.utils.http_utils] Checking HTTP reachability for https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/108/shared/v2/registry.gz (timeout=3.0)
+2025-11-11T01:52:58Z [332ms] [Info] [omni.kit.registry.nucleus.utils.omni_client_utils] omni.client.read_file: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/108/shared/v2/registry.gz
+2025-11-11T01:52:59Z [520ms] [Info] [omni.kit.registry.nucleus.utils.omni_client_utils] read_file result: Result.OK
+2025-11-11T01:52:59Z [526ms] [Info] [omni.kit.registry.nucleus.utils.common] index synced. index_is_new: False
+2025-11-11T01:52:59Z [527ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] selected index version implementation: RegistryIndexV2
+2025-11-11T01:52:59Z [530ms] [Info] [omni.ext.plugin] Syncing extension registry for provider 'kit/sdk'.
+2025-11-11T01:52:59Z [531ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] sync_index called.
+2025-11-11T01:52:59Z [531ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] [v2] _ensure_synced(resync=False) called
+2025-11-11T01:52:59Z [531ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] [v2] Syncing index...
+2025-11-11T01:52:59Z [531ms] [Info] [omni.kit.registry.nucleus.index_v2.index_sync] trying to take index_sync lock on: /home/mateo/.local/share/ov/data/exts/v2/index/b943a269/registry.lock
+2025-11-11T01:52:59Z [531ms] [Info] [omni.kit.registry.nucleus.utils.http_utils] Checking HTTP reachability for https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/108.0/5941509b/v2/registry.gz (timeout=3.0)
+2025-11-11T01:52:59Z [714ms] [Info] [omni.kit.registry.nucleus.utils.omni_client_utils] omni.client.read_file: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/108.0/5941509b/v2/registry.gz
+2025-11-11T01:52:59Z [753ms] [Info] [omni.kit.registry.nucleus.utils.omni_client_utils] read_file result: Result.OK
+2025-11-11T01:52:59Z [759ms] [Info] [omni.kit.registry.nucleus.utils.common] index synced. index_is_new: False
+2025-11-11T01:52:59Z [759ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] selected index version implementation: RegistryIndexV2
+2025-11-11T01:52:59Z [762ms] [Info] [omni.ext.plugin] Syncing extension registry for provider 'kit/prod/default'.
+2025-11-11T01:52:59Z [762ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/default] sync_index called.
+2025-11-11T01:52:59Z [763ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/default] [v2] _ensure_synced(resync=False) called
+2025-11-11T01:52:59Z [763ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/default] [v2] Syncing index...
+2025-11-11T01:52:59Z [763ms] [Info] [omni.kit.registry.nucleus.index_v2.index_sync] trying to take index_sync lock on: /home/mateo/.local/share/ov/data/exts/v2/index/a319d21e/registry.lock
+2025-11-11T01:52:59Z [763ms] [Info] [omni.kit.registry.nucleus.utils.http_utils] Checking HTTP reachability for https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/108/shared/v2/registry.gz (timeout=3.0)
+2025-11-11T01:52:59Z [954ms] [Info] [omni.kit.registry.nucleus.utils.omni_client_utils] omni.client.read_file: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/108/shared/v2/registry.gz
+2025-11-11T01:52:59Z [991ms] [Info] [omni.kit.registry.nucleus.utils.omni_client_utils] read_file result: Result.OK
+2025-11-11T01:52:59Z [999ms] [Info] [omni.kit.registry.nucleus.utils.common] index synced. index_is_new: False
+2025-11-11T01:52:59Z [999ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/default] selected index version implementation: RegistryIndexV2
+2025-11-11T01:52:59Z [1,003ms] [Info] [omni.ext.plugin] Syncing extension registry for provider 'kit/prod/sdk'.
+2025-11-11T01:52:59Z [1,003ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/sdk] sync_index called.
+2025-11-11T01:52:59Z [1,003ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/sdk] [v2] _ensure_synced(resync=False) called
+2025-11-11T01:52:59Z [1,003ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/sdk] [v2] Syncing index...
+2025-11-11T01:52:59Z [1,004ms] [Info] [omni.kit.registry.nucleus.index_v2.index_sync] trying to take index_sync lock on: /home/mateo/.local/share/ov/data/exts/v2/index/b943a269/registry.lock
+2025-11-11T01:52:59Z [1,004ms] [Info] [omni.kit.registry.nucleus.utils.http_utils] Checking HTTP reachability for https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/108.0/5941509b/v2/registry.gz (timeout=3.0)
+2025-11-11T01:52:59Z [1,193ms] [Info] [omni.kit.registry.nucleus.utils.omni_client_utils] omni.client.read_file: https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/108.0/5941509b/v2/registry.gz
+2025-11-11T01:52:59Z [1,246ms] [Info] [omni.kit.registry.nucleus.utils.omni_client_utils] read_file result: Result.OK
+2025-11-11T01:52:59Z [1,252ms] [Info] [omni.kit.registry.nucleus.utils.common] index synced. index_is_new: False
+2025-11-11T01:52:59Z [1,252ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/prod/sdk] selected index version implementation: RegistryIndexV2
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Extensions dependency solver solution:
+[ext: exts.deps.generated-0.0.0] deps:
+ -> 'h12_asset_ext' = { version='^' } selected: [h12_asset_ext-0.0.1] Available versions:
+	 - [h12_asset_ext-0.0.1+lx64.r.cp312] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/h12_asset_ext)
+ -> 'omni.example.cpp.actions' = { version='^' } selected: [omni.example.cpp.actions-1.0.1] Available versions:
+	 - [omni.example.cpp.actions-1.0.1+lx64.r.cp312] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.actions)
+ -> 'omni.example.cpp.commands' = { version='^' } selected: [omni.example.cpp.commands-1.0.1] Available versions:
+	 - [omni.example.cpp.commands-1.0.1+lx64.r.cp312] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.commands)
+ -> 'omni.example.cpp.hello_world' = { version='^' } selected: [omni.example.cpp.hello_world-1.0.0] Available versions:
+	 - [omni.example.cpp.hello_world-1.0.0+lx64.r.cp312] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.hello_world)
+ -> 'omni.example.cpp.omnigraph_node' = { version='^' } selected: [omni.example.cpp.omnigraph_node-1.0.2] Available versions:
+	 - [omni.example.cpp.omnigraph_node-1.0.2+lx64.r.cp312] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.omnigraph_node)
+ -> 'omni.example.cpp.pybind' = { version='^' } selected: [omni.example.cpp.pybind-1.0.1] Available versions:
+	 - [omni.example.cpp.pybind-1.0.1+lx64.r.cp312] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.pybind)
+ -> 'omni.example.cpp.tasking' = { version='^' } selected: [omni.example.cpp.tasking-1.0.0] Available versions:
+	 - [omni.example.cpp.tasking-1.0.0+lx64.r.cp312] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.tasking)
+ -> 'omni.example.cpp.ui_widget' = { version='^' } selected: [omni.example.cpp.ui_widget-1.0.1] Available versions:
+	 - [omni.example.cpp.ui_widget-1.0.1+lx64.r.cp312] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.ui_widget)
+ -> 'omni.example.cpp.usd' = { version='^' } selected: [omni.example.cpp.usd-1.0.1] Available versions:
+	 - [omni.example.cpp.usd-1.0.1+lx64.r.cp312] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usd)
+ -> 'omni.example.cpp.usd_physics' = { version='^' } selected: [omni.example.cpp.usd_physics-1.0.1] Available versions:
+	 - [omni.example.cpp.usd_physics-1.0.1+lx64.r.cp312] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usd_physics)
+ -> 'omni.example.cpp.usdrt' = { version='^' } selected: [omni.example.cpp.usdrt-1.0.2] Available versions:
+	 - [omni.example.cpp.usdrt-1.0.2+lx64.r.cp312] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.usdrt)
+ -> 'omni.example.python.hello_world' = { version='^' } selected: [omni.example.python.hello_world-1.0.0] Available versions:
+	 - [omni.example.python.hello_world-1.0.0] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.hello_world)
+ -> 'omni.example.python.ui' = { version='^' } selected: [omni.example.python.ui-1.0.0] Available versions:
+	 - [omni.example.python.ui-1.0.0] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.ui)
+ -> 'omni.example.python.usdrt' = { version='^' } selected: [omni.example.python.usdrt-1.0.1] Available versions:
+	 - [omni.example.python.usdrt-1.0.1] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.usdrt)
+ -> 'omni.example.python.usdrt_mesh' = { version='^' } selected: [omni.example.python.usdrt_mesh-0.0.1] Available versions:
+	 - [omni.example.python.usdrt_mesh-0.0.1] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.python.usdrt_mesh)
+ -> 'omni.kit.test' = { version='^' } selected: [omni.kit.test-2.0.1] Available versions:
+	 - [omni.kit.test-2.0.1+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.kit.ui_test' = { version='^' } selected: [omni.kit.ui_test-1.4.1] Available versions:
+	 - [omni.kit.ui_test-1.4.1+5941509b] (registry)
+[ext: h12_asset_ext-0.0.1] no deps
+[ext: omni.example.cpp.commands-1.0.1] deps:
+ -> 'omni.kit.commands' = { version='^' } selected: [omni.kit.commands-1.4.10] Available versions:
+	 - [omni.kit.commands-1.4.10+5941509b.lx64.r.cp312] (registry)
+[ext: omni.example.cpp.tasking-1.0.0] no deps
+[ext: omni.example.python.usdrt_mesh-0.0.1] deps:
+ -> 'omni.kit.pip_archive' = { version='^' } selected: [omni.kit.pip_archive-0.0.0] Available versions:
+	 - [omni.kit.pip_archive-0.0.0+5941509b.lx64.cp312] (registry)
+ -> 'omni.kit.primitive.mesh' = { version='^' } selected: [omni.kit.primitive.mesh-1.0.17] Available versions:
+	 - [omni.kit.primitive.mesh-1.0.17+5941509b] (registry)
+ -> 'omni.kit.uiapp' = { version='^' } selected: [omni.kit.uiapp-0.0.0] Available versions:
+	 - [omni.kit.uiapp-0.0.0+5941509b] (registry)
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.13.13] Available versions:
+	 - [omni.usd-1.13.13+5941509b.lx64.r.cp312] (registry)
+ -> 'usdrt.scenegraph' = { version='^' } selected: [usdrt.scenegraph-7.6.1] Available versions:
+	 - [usdrt.scenegraph-7.6.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.kit.ui_test-1.4.1] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-2.27.2] Available versions:
+	 - [omni.ui-2.27.2+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.ui_query' = { version='^' } selected: [omni.ui_query-1.1.8] Available versions:
+	 - [omni.ui_query-1.1.8+5941509b] (registry)
+[ext: omni.example.python.usdrt-1.0.1] deps:
+ -> 'omni.kit.primitive.mesh' = { version='^' } selected: [omni.kit.primitive.mesh-1.0.17] Available versions:
+	 - [omni.kit.primitive.mesh-1.0.17+5941509b] (registry)
+ -> 'omni.kit.uiapp' = { version='^' } selected: [omni.kit.uiapp-0.0.0] Available versions:
+	 - [omni.kit.uiapp-0.0.0+5941509b] (registry)
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.13.13] Available versions:
+	 - [omni.usd-1.13.13+5941509b.lx64.r.cp312] (registry)
+ -> 'usdrt.scenegraph' = { version='^' } selected: [usdrt.scenegraph-7.6.1] Available versions:
+	 - [usdrt.scenegraph-7.6.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.example.python.ui-1.0.0] deps:
+ -> 'omni.example.cpp.ui_widget' = { version='^' } selected: [omni.example.cpp.ui_widget-1.0.1] Available versions:
+	 - [omni.example.cpp.ui_widget-1.0.1+lx64.r.cp312] (/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions/omni.example.cpp.ui_widget)
+ -> 'omni.kit.uiapp' = { version='^' } selected: [omni.kit.uiapp-0.0.0] Available versions:
+	 - [omni.kit.uiapp-0.0.0+5941509b] (registry)
+[ext: omni.example.python.hello_world-1.0.0] no deps
+[ext: omni.ui_query-1.1.8] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-2.27.2] Available versions:
+	 - [omni.ui-2.27.2+5941509b.lx64.r.cp312] (registry)
+[ext: omni.example.cpp.usdrt-1.0.2] deps:
+ -> 'omni.kit.primitive.mesh' = { version='^' } selected: [omni.kit.primitive.mesh-1.0.17] Available versions:
+	 - [omni.kit.primitive.mesh-1.0.17+5941509b] (registry)
+ -> 'omni.kit.uiapp' = { version='^' } selected: [omni.kit.uiapp-0.0.0] Available versions:
+	 - [omni.kit.uiapp-0.0.0+5941509b] (registry)
+ -> 'usdrt.scenegraph' = { version='^' } selected: [usdrt.scenegraph-7.6.1] Available versions:
+	 - [usdrt.scenegraph-7.6.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.example.cpp.ui_widget-1.0.1] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-2.27.2] Available versions:
+	 - [omni.ui-2.27.2+5941509b.lx64.r.cp312] (registry)
+[ext: omni.example.cpp.usd_physics-1.0.1] deps:
+ -> 'omni.physics.stageupdate' = { version='=108.0.4' } selected: [omni.physics.stageupdate-108.0.4] Available versions:
+	 - [omni.physics.stageupdate-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+ -> 'omni.physx' = { version='=108.0.4' } selected: [omni.physx-108.0.4] Available versions:
+	 - [omni.physx-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+[ext: omni.example.cpp.usd-1.0.1] deps:
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.13.13] Available versions:
+	 - [omni.usd-1.13.13+5941509b.lx64.r.cp312] (registry)
+[ext: omni.example.cpp.pybind-1.0.1] no deps
+[ext: omni.kit.primitive.mesh-1.0.17] deps:
+ -> 'omni.kit.actions.core' = { version='^' } selected: [omni.kit.actions.core-1.0.0] Available versions:
+	 - [omni.kit.actions.core-1.0.0+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.kit.commands' = { version='^' } selected: [omni.kit.commands-1.4.10] Available versions:
+	 - [omni.kit.commands-1.4.10+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.kit.usd.layers' = { version='^' } selected: [omni.kit.usd.layers-2.3.2] Available versions:
+	 - [omni.kit.usd.layers-2.3.2+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.ui' = { version='^' optional=true  } selected: [omni.ui-2.27.2] Available versions:
+	 - [omni.ui-2.27.2+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.13.13] Available versions:
+	 - [omni.usd-1.13.13+5941509b.lx64.r.cp312] (registry)
+[ext: omni.physx-108.0.4] deps:
+ -> 'omni.physx.cooking' = { version='=108.0.4' } selected: [omni.physx.cooking-108.0.4] Available versions:
+	 - [omni.physx.cooking-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+ -> 'omni.physx.foundation' = { version='=108.0.4' } selected: [omni.physx.foundation-108.0.4] Available versions:
+	 - [omni.physx.foundation-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+ -> 'omni.usd.schema.physx' = { version='=108.0.4' } selected: [omni.usd.schema.physx-108.0.4] Available versions:
+	 - [omni.usd.schema.physx-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+ -> 'omni.usdphysics' = { version='=108.0.4' } selected: [omni.usdphysics-108.0.4] Available versions:
+	 - [omni.usdphysics-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+ -> 'omni.gpucompute.plugins' = { version='^' } selected: [omni.gpucompute.plugins-0.0.0] Available versions:
+	 - [omni.gpucompute.plugins-0.0.0+5941509b.lx64.r] (registry)
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.1] Available versions:
+	 - [omni.usd.libs-1.0.1+5941509b.lx64.r.cp312] (registry)
+ -> 'usdrt.scenegraph' = { version='^' } selected: [usdrt.scenegraph-7.6.1] Available versions:
+	 - [usdrt.scenegraph-7.6.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.physics.stageupdate-108.0.4] deps:
+ -> 'omni.physics' = { version='=108.0.4' } selected: [omni.physics-108.0.4] Available versions:
+	 - [omni.physics-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+ -> 'omni.kit.usd.layers' = { version='^' optional=true  } selected: [omni.kit.usd.layers-2.3.2] Available versions:
+	 - [omni.kit.usd.layers-2.3.2+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.ui' = { version='^' optional=true  } selected: [omni.ui-2.27.2] Available versions:
+	 - [omni.ui-2.27.2+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.13.13] Available versions:
+	 - [omni.usd-1.13.13+5941509b.lx64.r.cp312] (registry)
+[ext: omni.physx.cooking-108.0.4] deps:
+ -> 'omni.convexdecomposition' = { version='=108.0.4' } selected: [omni.convexdecomposition-108.0.4] Available versions:
+	 - [omni.convexdecomposition-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+ -> 'omni.localcache' = { version='=108.0.4' } selected: [omni.localcache-108.0.4] Available versions:
+	 - [omni.localcache-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+ -> 'omni.physx.foundation' = { version='=108.0.4' } selected: [omni.physx.foundation-108.0.4] Available versions:
+	 - [omni.physx.foundation-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+ -> 'omni.usd.schema.physx' = { version='=108.0.4' } selected: [omni.usd.schema.physx-108.0.4] Available versions:
+	 - [omni.usd.schema.physx-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+ -> 'omni.usdphysics' = { version='=108.0.4' } selected: [omni.usdphysics-108.0.4] Available versions:
+	 - [omni.usdphysics-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+ -> 'omni.ujitso.default' = { version='^' } selected: [omni.ujitso.default-1.0.0] Available versions:
+	 - [omni.ujitso.default-1.0.0+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.1] Available versions:
+	 - [omni.usd.libs-1.0.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.physics-108.0.4] no deps
+[ext: omni.kit.usd.layers-2.3.2] deps:
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0] Available versions:
+	 - [omni.client-1.3.0+5941509b.lx64.r] (registry)
+ -> 'omni.kit.commands' = { version='^' } selected: [omni.kit.commands-1.4.10] Available versions:
+	 - [omni.kit.commands-1.4.10+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.13.13] Available versions:
+	 - [omni.usd-1.13.13+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.1] Available versions:
+	 - [omni.usd.libs-1.0.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.convexdecomposition-108.0.4] deps:
+ -> 'omni.usd.schema.physx' = { version='=108.0.4' } selected: [omni.usd.schema.physx-108.0.4] Available versions:
+	 - [omni.usd.schema.physx-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+ -> 'omni.assets.plugins' = { version='^' } selected: [omni.assets.plugins-0.0.0] Available versions:
+	 - [omni.assets.plugins-0.0.0+5941509b.lx64.r] (registry)
+ -> 'omni.kit.commands' = { version='^' optional=true  } selected: [omni.kit.commands-1.4.10] Available versions:
+	 - [omni.kit.commands-1.4.10+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.1] Available versions:
+	 - [omni.usd.libs-1.0.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.usdphysics-108.0.4] deps:
+ -> 'omni.usd.schema.physx' = { version='=108.0.4' } selected: [omni.usd.schema.physx-108.0.4] Available versions:
+	 - [omni.usd.schema.physx-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.1] Available versions:
+	 - [omni.usd.libs-1.0.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.physx.foundation-108.0.4] deps:
+ -> 'omni.gpu_foundation' = { version='^' } selected: [omni.gpu_foundation-0.0.0] Available versions:
+	 - [omni.gpu_foundation-0.0.0+5941509b.lx64.r.cp312] (registry)
+[ext: omni.localcache-108.0.4] deps:
+ -> 'omni.kvdb' = { version='=108.0.4' } selected: [omni.kvdb-108.0.4] Available versions:
+	 - [omni.kvdb-108.0.4+108.0.0.lx64.r.cp312.u81f] (registry)
+[ext: omni.example.cpp.actions-1.0.1] deps:
+ -> 'omni.kit.actions.core' = { version='^' } selected: [omni.kit.actions.core-1.0.0] Available versions:
+	 - [omni.kit.actions.core-1.0.0+5941509b.lx64.r.cp312] (registry)
+[ext: omni.kvdb-108.0.4] no deps
+[ext: omni.example.cpp.omnigraph_node-1.0.2] deps:
+ -> 'omni.graph.core' = { version='^' } selected: [omni.graph.core-2.184.7] Available versions:
+	 - [omni.graph.core-2.184.7+5941509b.lx64.r] (registry)
+ -> 'omni.graph.tools' = { version='^' } selected: [omni.graph.tools-1.79.3] Available versions:
+	 - [omni.graph.tools-1.79.3+5941509b] (registry)
+[ext: omni.example.cpp.hello_world-1.0.0] no deps
+[ext: omni.graph.core-2.184.7] deps:
+ -> 'omni.gpucompute.plugins' = { version='^' } selected: [omni.gpucompute.plugins-0.0.0] Available versions:
+	 - [omni.gpucompute.plugins-0.0.0+5941509b.lx64.r] (registry)
+ -> 'omni.kit.exec.core' = { version='^' } selected: [omni.kit.exec.core-0.13.4] Available versions:
+	 - [omni.kit.exec.core-0.13.4+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.kit.renderer.core' = { version='^' } selected: [omni.kit.renderer.core-1.1.1] Available versions:
+	 - [omni.kit.renderer.core-1.1.1+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.usd' = { version='^' } selected: [omni.usd-1.13.13] Available versions:
+	 - [omni.usd-1.13.13+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.usd.schema.omnigraph' = { version='^' } selected: [omni.usd.schema.omnigraph-1.0.0] Available versions:
+	 - [omni.usd.schema.omnigraph-1.0.0+5941509b.lx64.r.cp312] (registry)
+ -> 'usdrt.scenegraph' = { version='^' } selected: [usdrt.scenegraph-7.6.1] Available versions:
+	 - [usdrt.scenegraph-7.6.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.graph.tools-1.79.3] deps:
+ -> 'omni.kit.test' = { version='^' } selected: [omni.kit.test-2.0.1] Available versions:
+	 - [omni.kit.test-2.0.1+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.1] Available versions:
+	 - [omni.usd.libs-1.0.1+5941509b.lx64.r.cp312] (registry)
+[ext: usdrt.scenegraph-7.6.1] deps:
+ -> 'omni.cubric' = { version='^' } selected: [omni.cubric-0.1.0] Available versions:
+	 - [omni.cubric-0.1.0+5941509b.lx64.r] (registry)
+ -> 'omni.gpucompute.plugins' = { version='^' } selected: [omni.gpucompute.plugins-0.0.0] Available versions:
+	 - [omni.gpucompute.plugins-0.0.0+5941509b.lx64.r] (registry)
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.1] Available versions:
+	 - [omni.usd.libs-1.0.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.usd-1.13.13] deps:
+ -> 'carb.audio' = { version='^' } selected: [carb.audio-0.1.0] Available versions:
+	 - [carb.audio-0.1.0+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.assets.plugins' = { version='^' } selected: [omni.assets.plugins-0.0.0] Available versions:
+	 - [omni.assets.plugins-0.0.0+5941509b.lx64.r] (registry)
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0] Available versions:
+	 - [omni.client-1.3.0+5941509b.lx64.r] (registry)
+ -> 'omni.kit.async_engine' = { version='^' } selected: [omni.kit.async_engine-0.0.3] Available versions:
+	 - [omni.kit.async_engine-0.0.3] (/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.kit.async_engine)
+ -> 'omni.kit.audiodeviceenum' = { version='^' } selected: [omni.kit.audiodeviceenum-1.0.2] Available versions:
+	 - [omni.kit.audiodeviceenum-1.0.2+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.kit.commands' = { version='^' } selected: [omni.kit.commands-1.4.10] Available versions:
+	 - [omni.kit.commands-1.4.10+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.kit.exec.core' = { version='^' } selected: [omni.kit.exec.core-0.13.4] Available versions:
+	 - [omni.kit.exec.core-0.13.4+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.kit.usd_undo' = { version='^' } selected: [omni.kit.usd_undo-0.1.8] Available versions:
+	 - [omni.kit.usd_undo-0.1.8+5941509b] (registry)
+ -> 'omni.timeline' = { version='^' } selected: [omni.timeline-1.1.0] Available versions:
+	 - [omni.timeline-1.1.0+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.usd.core' = { version='^' } selected: [omni.usd.core-1.5.4] Available versions:
+	 - [omni.usd.core-1.5.4+5941509b.lx64.r] (registry)
+[ext: omni.cubric-0.1.0] no deps
+[ext: omni.kit.audiodeviceenum-1.0.2] deps:
+ -> 'carb.audio' = { version='^' } selected: [carb.audio-0.1.0] Available versions:
+	 - [carb.audio-0.1.0+5941509b.lx64.r.cp312] (registry)
+[ext: omni.kit.commands-1.4.10] deps:
+ -> 'omni.kit.actions.core' = { version='^' } selected: [omni.kit.actions.core-1.0.0] Available versions:
+	 - [omni.kit.actions.core-1.0.0+5941509b.lx64.r.cp312] (registry)
+[ext: omni.usd.core-1.5.4] deps:
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0] Available versions:
+	 - [omni.client-1.3.0+5941509b.lx64.r] (registry)
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.1] Available versions:
+	 - [omni.usd.libs-1.0.1+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.usd.schema.audio' = { version='^' } selected: [omni.usd.schema.audio-0.0.0] Available versions:
+	 - [omni.usd.schema.audio-0.0.0+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.usd_resolver' = { version='^' } selected: [omni.usd_resolver-1.0.0] Available versions:
+	 - [omni.usd_resolver-1.0.0+5941509b.lx64.r.cp312] (registry)
+[ext: omni.kit.exec.core-0.13.4] deps:
+ -> 'omni.graph.exec' = { version='^' } selected: [omni.graph.exec-0.9.6] Available versions:
+	 - [omni.graph.exec-0.9.6+5941509b.lx64.r] (registry)
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.1] Available versions:
+	 - [omni.usd.libs-1.0.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.timeline-1.1.0] no deps
+[ext: omni.kit.actions.core-1.0.0] no deps
+[ext: omni.usd_resolver-1.0.0] deps:
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0] Available versions:
+	 - [omni.client-1.3.0+5941509b.lx64.r] (registry)
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.1] Available versions:
+	 - [omni.usd.libs-1.0.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.graph.exec-0.9.6] no deps
+[ext: omni.kit.usd_undo-0.1.8] deps:
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.1] Available versions:
+	 - [omni.usd.libs-1.0.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.usd.schema.physx-108.0.4] deps:
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.1] Available versions:
+	 - [omni.usd.libs-1.0.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.usd.schema.omnigraph-1.0.0] deps:
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.1] Available versions:
+	 - [omni.usd.libs-1.0.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.usd.schema.audio-0.0.0] deps:
+ -> 'omni.usd.libs' = { version='^' } selected: [omni.usd.libs-1.0.1] Available versions:
+	 - [omni.usd.libs-1.0.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.kit.uiapp-0.0.0] deps:
+ -> 'omni.kit.mainwindow' = { version='^' } selected: [omni.kit.mainwindow-1.0.3] Available versions:
+	 - [omni.kit.mainwindow-1.0.3+5941509b] (registry)
+ -> 'omni.kit.renderer.core' = { version='^' } selected: [omni.kit.renderer.core-1.1.1] Available versions:
+	 - [omni.kit.renderer.core-1.1.1+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.uiaudio' = { version='^' } selected: [omni.uiaudio-1.0.0] Available versions:
+	 - [omni.uiaudio-1.0.0+5941509b.lx64.r.cp312] (registry)
+[ext: omni.uiaudio-1.0.0] deps:
+ -> 'carb.audio' = { version='^' } selected: [carb.audio-0.1.0] Available versions:
+	 - [carb.audio-0.1.0+5941509b.lx64.r.cp312] (registry)
+[ext: carb.audio-0.1.0] deps:
+ -> 'omni.assets.plugins' = { version='^' } selected: [omni.assets.plugins-0.0.0] Available versions:
+	 - [omni.assets.plugins-0.0.0+5941509b.lx64.r] (registry)
+[ext: omni.kit.mainwindow-1.0.3] deps:
+ -> 'omni.ui' = { version='^' } selected: [omni.ui-2.27.2] Available versions:
+	 - [omni.ui-2.27.2+5941509b.lx64.r.cp312] (registry)
+[ext: omni.ui-2.27.2] deps:
+ -> 'omni.appwindow' = { version='^' } selected: [omni.appwindow-1.2.0] Available versions:
+	 - [omni.appwindow-1.2.0+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.kit.renderer.imgui' = { version='^' } selected: [omni.kit.renderer.imgui-2.0.6] Available versions:
+	 - [omni.kit.renderer.imgui-2.0.6+5941509b.lx64.r.cp312] (registry)
+[ext: omni.kit.renderer.imgui-2.0.6] deps:
+ -> 'omni.appwindow' = { version='^' } selected: [omni.appwindow-1.2.0] Available versions:
+	 - [omni.appwindow-1.2.0+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.kit.renderer.capture' = { version='^' } selected: [omni.kit.renderer.capture-1.0.2] Available versions:
+	 - [omni.kit.renderer.capture-1.0.2+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.kit.renderer.core' = { version='^' } selected: [omni.kit.renderer.core-1.1.1] Available versions:
+	 - [omni.kit.renderer.core-1.1.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.kit.renderer.capture-1.0.2] deps:
+ -> 'omni.kit.renderer.core' = { version='^' } selected: [omni.kit.renderer.core-1.1.1] Available versions:
+	 - [omni.kit.renderer.core-1.1.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.kit.renderer.core-1.1.1] deps:
+ -> 'omni.appwindow' = { version='^' } selected: [omni.appwindow-1.2.0] Available versions:
+	 - [omni.appwindow-1.2.0+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0] Available versions:
+	 - [omni.client-1.3.0+5941509b.lx64.r] (registry)
+ -> 'omni.kit.renderer.init' = { version='^' } selected: [omni.kit.renderer.init-0.0.0] Available versions:
+	 - [omni.kit.renderer.init-0.0.0+5941509b.lx64.r] (registry)
+[ext: omni.appwindow-1.2.0] deps:
+ -> 'carb.windowing.plugins' = { version='^' } selected: [carb.windowing.plugins-1.0.0] Available versions:
+	 - [carb.windowing.plugins-1.0.0+5941509b.lx64.r] (registry)
+ -> 'omni.kit.loop' = { version='^' } selected: [omni.kit.loop-default-0.2.2] Available versions:
+	 (none found)
+[ext: omni.usd.libs-1.0.1] deps:
+ -> 'omni.gpucompute.plugins' = { version='^' optional=true  } selected: [omni.gpucompute.plugins-0.0.0] Available versions:
+	 - [omni.gpucompute.plugins-0.0.0+5941509b.lx64.r] (registry)
+ -> 'omni.usd.config' = { version='^' } selected: [omni.usd.config-1.0.6] Available versions:
+	 - [omni.usd.config-1.0.6+5941509b] (registry)
+[ext: omni.gpucompute.plugins-0.0.0] deps:
+ -> 'omni.gpu_foundation' = { version='^' } selected: [omni.gpu_foundation-0.0.0] Available versions:
+	 - [omni.gpu_foundation-0.0.0+5941509b.lx64.r.cp312] (registry)
+[ext: omni.usd.config-1.0.6] no deps
+[ext: omni.kit.test-2.0.1] deps:
+ -> 'omni.kit.async_engine' = { version='^' } selected: [omni.kit.async_engine-0.0.3] Available versions:
+	 - [omni.kit.async_engine-0.0.3] (/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.kit.async_engine)
+ -> 'omni.kit.loop' = { version='^' } selected: [omni.kit.loop-default-0.2.2] Available versions:
+	 (none found)
+ -> 'omni.kit.pip_archive' = { version='^' } selected: [omni.kit.pip_archive-0.0.0] Available versions:
+	 - [omni.kit.pip_archive-0.0.0+5941509b.lx64.cp312] (registry)
+[ext: omni.kit.loop-default-0.2.2] no deps
+[ext: omni.kit.pip_archive-0.0.0] deps:
+ -> 'omni.kit.pipapi' = { version='^' } selected: [omni.kit.pipapi-0.0.0] Available versions:
+	 - [omni.kit.pipapi-0.0.0+5941509b] (registry)
+[ext: omni.kit.pipapi-0.0.0] no deps
+[ext: omni.kit.renderer.init-0.0.0] deps:
+ -> 'carb.windowing.plugins' = { version='^' } selected: [carb.windowing.plugins-1.0.0] Available versions:
+	 - [carb.windowing.plugins-1.0.0+5941509b.lx64.r] (registry)
+ -> 'omni.assets.plugins' = { version='^' } selected: [omni.assets.plugins-0.0.0] Available versions:
+	 - [omni.assets.plugins-0.0.0+5941509b.lx64.r] (registry)
+ -> 'omni.gpu_foundation' = { version='^' } selected: [omni.gpu_foundation-0.0.0] Available versions:
+	 - [omni.gpu_foundation-0.0.0+5941509b.lx64.r.cp312] (registry)
+[ext: carb.windowing.plugins-1.0.0] no deps
+[ext: omni.gpu_foundation-0.0.0] deps:
+ -> 'omni.assets.plugins' = { version='^' } selected: [omni.assets.plugins-0.0.0] Available versions:
+	 - [omni.assets.plugins-0.0.0+5941509b.lx64.r] (registry)
+ -> 'omni.client' = { version='^' optional=true  } selected: [omni.client-1.3.0] Available versions:
+	 - [omni.client-1.3.0+5941509b.lx64.r] (registry)
+ -> 'omni.gpu_foundation.shadercache.vulkan' = { version='^' } selected: [omni.gpu_foundation.shadercache.vulkan-1.0.0] Available versions:
+	 - [omni.gpu_foundation.shadercache.vulkan-1.0.0+5941509b.lx64.r] (registry)
+ -> 'omni.stats' = { version='^' } selected: [omni.stats-1.0.1] Available versions:
+	 - [omni.stats-1.0.1+5941509b.lx64.r.cp312] (registry)
+ -> 'omni.ujitso.default' = { version='^' optional=true  } selected: [omni.ujitso.default-1.0.0] Available versions:
+	 - [omni.ujitso.default-1.0.0+5941509b.lx64.r.cp312] (registry)
+[ext: omni.assets.plugins-0.0.0] no deps
+[ext: omni.gpu_foundation.shadercache.vulkan-1.0.0] no deps
+[ext: omni.ujitso.default-1.0.0] deps:
+ -> 'omni.blobkey' = { version='^' } selected: [omni.blobkey-1.1.2] Available versions:
+	 - [omni.blobkey-1.1.2+5941509b.lx64.r] (registry)
+ -> 'omni.client' = { version='^' } selected: [omni.client-1.3.0] Available versions:
+	 - [omni.client-1.3.0+5941509b.lx64.r] (registry)
+ -> 'omni.datastore' = { version='^' } selected: [omni.datastore-0.0.0] Available versions:
+	 - [omni.datastore-0.0.0+5941509b.lx64.r] (registry)
+ -> 'omni.stats' = { version='^' } selected: [omni.stats-1.0.1] Available versions:
+	 - [omni.stats-1.0.1+5941509b.lx64.r.cp312] (registry)
+[ext: omni.client-1.3.0] deps:
+ -> 'omni.client.lib' = { version='^' } selected: [omni.client.lib-1.1.0] Available versions:
+	 - [omni.client.lib-1.1.0+lx64.r.cp312] (/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.client.lib)
+[ext: omni.datastore-0.0.0] deps:
+ -> 'omni.blobkey' = { version='^' } selected: [omni.blobkey-1.1.2] Available versions:
+	 - [omni.blobkey-1.1.2+5941509b.lx64.r] (registry)
+ -> 'omni.grpc.lib' = { version='^' } selected: [omni.grpc.lib-1.0.0] Available versions:
+	 - [omni.grpc.lib-1.0.0+5941509b.lx64.r] (registry)
+ -> 'omni.metrics.core' = { version='^' } selected: [omni.metrics.core-0.0.3] Available versions:
+	 - [omni.metrics.core-0.0.3+5941509b.lx64.r] (registry)
+[ext: omni.stats-1.0.1] no deps
+[ext: omni.blobkey-1.1.2] no deps
+[ext: omni.metrics.core-0.0.3] no deps
+[ext: omni.client.lib-1.1.0] deps:
+ -> 'omni.kit.async_engine' = { version='^' } selected: [omni.kit.async_engine-0.0.3] Available versions:
+	 - [omni.kit.async_engine-0.0.3] (/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore/omni.kit.async_engine)
+[ext: omni.grpc.lib-1.0.0] deps:
+ -> 'omni.protobuf.lib' = { version='^' } selected: [omni.protobuf.lib-1.0.0] Available versions:
+	 - [omni.protobuf.lib-1.0.0+5941509b.lx64.r] (registry)
+[ext: omni.kit.async_engine-0.0.3] no deps
+[ext: omni.protobuf.lib-1.0.0] no deps
+ Synced registries:
+	 - kit/default         : found 456 packages 
+	 - kit/sdk             : found 687 packages 
+	 - kit/prod/default    : found 456 packages 
+	 - kit/prod/sdk        : found 687 packages 
+
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.protobuf.lib-1.0.0] (order: 0) Triggered by: omni.grpc.lib-1.0.0
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.grpc.lib-1.0.0] (order: 0) Triggered by: omni.datastore-0.0.0
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.metrics.core-0.0.3] (order: 0) Triggered by: omni.datastore-0.0.0
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.blobkey-1.1.2] (order: 0) Triggered by: omni.datastore-0.0.0, omni.ujitso.default-1.0.0
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.stats-1.0.1] (order: 0) Triggered by: omni.gpu_foundation-0.0.0, omni.ujitso.default-1.0.0
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.datastore-0.0.0] (order: 0) Triggered by: omni.ujitso.default-1.0.0
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.client-1.3.0] (order: 0) Triggered by: omni.kit.renderer.core-1.1.1, omni.kit.usd.layers-2.3.2, omni.ujitso.default-1.0.0, omni.usd-1.13.13, omni.usd.core-1.5.4, omni.usd_resolver-1.0.0
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.ujitso.default-1.0.0] (order: 0) Triggered by: omni.physx.cooking-108.0.4
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.gpu_foundation.shadercache.vulkan-1.0.0] (order: 0) Triggered by: omni.gpu_foundation-0.0.0
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.assets.plugins-0.0.0] (order: 0) Triggered by: carb.audio-0.1.0, omni.convexdecomposition-108.0.4, omni.gpu_foundation-0.0.0, omni.kit.renderer.init-0.0.0, omni.usd-1.13.13
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.gpu_foundation-0.0.0] (order: -100000) Triggered by: omni.gpucompute.plugins-0.0.0, omni.kit.renderer.init-0.0.0, omni.physx.foundation-108.0.4
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: carb.windowing.plugins-1.0.0] (order: 0) Triggered by: omni.appwindow-1.2.0, omni.kit.renderer.init-0.0.0
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.renderer.init-0.0.0] (order: -100000) Triggered by: omni.kit.renderer.core-1.1.1
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.pipapi-0.0.0] (order: -1000) Triggered by: omni.kit.pip_archive-0.0.0
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.pip_archive-0.0.0] (order: -1000) Triggered by: omni.example.python.usdrt_mesh-0.0.1, omni.kit.test-2.0.1
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.datastore-0.0.0` from the registry.
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.loop-default-0.2.2] (order: 0) Triggered by: omni.appwindow-1.2.0, omni.kit.test-2.0.1
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.metrics.core-0.0.3` from the registry.
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.gpu_foundation-0.0.0` from the registry.
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `carb.windowing.plugins-1.0.0` from the registry.
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.gpu_foundation.shadercache.vulkan-1.0.0` from the registry.
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.protobuf.lib-1.0.0` from the registry.
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.grpc.lib-1.0.0` from the registry.
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.stats-1.0.1` from the registry.
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.blobkey-1.1.2` from the registry.
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.ujitso.default-1.0.0` from the registry.
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.test-2.0.1] (order: -1000) Triggered by: exts.deps.generated-0.0.0, omni.graph.tools-1.79.3
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.assets.plugins-0.0.0` from the registry.
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.kit.renderer.init-0.0.0` from the registry.
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.kit.loop-default-0.2.2` from the registry.
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.kit.pip_archive-0.0.0` from the registry.
+2025-11-11T01:52:59Z [1,283ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.client-1.3.0` from the registry.
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.kit.app.plugin] [1.294s] Pulling extension: `omni.kit.pipapi-0.0.0` from the registry.
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.usd.config-1.0.6] (order: 0) Triggered by: omni.usd.libs-1.0.1
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.gpucompute.plugins-0.0.0] (order: 0) Triggered by: omni.graph.core-2.184.7, omni.physx-108.0.4, usdrt.scenegraph-7.6.1
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.usd.libs-1.0.1] (order: -1000) Triggered by: omni.convexdecomposition-108.0.4, omni.graph.tools-1.79.3, omni.kit.exec.core-0.13.4, omni.kit.usd.layers-2.3.2, omni.kit.usd_undo-0.1.8, omni.physx-108.0.4, omni.physx.cooking-108.0.4, omni.usd.core-1.5.4, omni.usd.schema.audio-0.0.0, omni.usd.schema.omnigraph-1.0.0, omni.usd.schema.physx-108.0.4, omni.usd_resolver-1.0.0, omni.usdphysics-108.0.4, usdrt.scenegraph-7.6.1
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.appwindow-1.2.0] (order: 0) Triggered by: omni.kit.renderer.core-1.1.1, omni.kit.renderer.imgui-2.0.6, omni.ui-2.27.2
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.renderer.core-1.1.1] (order: 0) Triggered by: omni.graph.core-2.184.7, omni.kit.renderer.capture-1.0.2, omni.kit.renderer.imgui-2.0.6, omni.kit.uiapp-0.0.0
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.renderer.capture-1.0.2] (order: 0) Triggered by: omni.kit.renderer.imgui-2.0.6
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.renderer.imgui-2.0.6] (order: 0) Triggered by: omni.ui-2.27.2
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.ui-2.27.2] (order: 0) Triggered by: omni.example.cpp.ui_widget-1.0.1, omni.kit.mainwindow-1.0.3, omni.kit.ui_test-1.4.1, omni.ui_query-1.1.8
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.mainwindow-1.0.3] (order: -500) Triggered by: omni.kit.uiapp-0.0.0
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: carb.audio-0.1.0] (order: 0) Triggered by: omni.kit.audiodeviceenum-1.0.2, omni.uiaudio-1.0.0, omni.usd-1.13.13
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.uiaudio-1.0.0] (order: 0) Triggered by: omni.kit.uiapp-0.0.0
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.uiapp-0.0.0] (order: -500) Triggered by: omni.example.cpp.usdrt-1.0.2, omni.example.python.ui-1.0.0, omni.example.python.usdrt-1.0.1, omni.example.python.usdrt_mesh-0.0.1
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.usd.schema.audio-0.0.0] (order: -100) Triggered by: omni.usd.core-1.5.4
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.datastore-0.0.0+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.usd.schema.omnigraph-1.0.0] (order: -100) Triggered by: omni.graph.core-2.184.7
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.usd.schema.physx-108.0.4] (order: -100) Triggered by: omni.convexdecomposition-108.0.4, omni.physx-108.0.4, omni.physx.cooking-108.0.4, omni.usdphysics-108.0.4
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.usd_undo-0.1.8] (order: 0) Triggered by: omni.usd-1.13.13
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.graph.exec-0.9.6] (order: 0) Triggered by: omni.kit.exec.core-0.13.4
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.usd_resolver-1.0.0] (order: 0) Triggered by: omni.usd.core-1.5.4
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.actions.core-1.0.0] (order: 0) Triggered by: omni.example.cpp.actions-1.0.1, omni.kit.commands-1.4.10, omni.kit.primitive.mesh-1.0.17
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.timeline-1.1.0] (order: 0) Triggered by: omni.usd-1.13.13
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.exec.core-0.13.4] (order: 0) Triggered by: omni.graph.core-2.184.7, omni.usd-1.13.13
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.usd.core-1.5.4] (order: 0) Triggered by: omni.usd-1.13.13
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.commands-1.4.10] (order: 0) Triggered by: omni.example.cpp.commands-1.0.1, omni.kit.primitive.mesh-1.0.17, omni.kit.usd.layers-2.3.2, omni.usd-1.13.13
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.audiodeviceenum-1.0.2] (order: 0) Triggered by: omni.usd-1.13.13
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.cubric-0.1.0] (order: 0) Triggered by: usdrt.scenegraph-7.6.1
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.usd-1.13.13] (order: 0) Triggered by: omni.example.cpp.usd-1.0.1, omni.example.python.usdrt-1.0.1, omni.example.python.usdrt_mesh-0.0.1, omni.graph.core-2.184.7, omni.kit.primitive.mesh-1.0.17, omni.kit.usd.layers-2.3.2, omni.physics.stageupdate-108.0.4
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: usdrt.scenegraph-7.6.1] (order: 0) Triggered by: omni.example.cpp.usdrt-1.0.2, omni.example.python.usdrt-1.0.1, omni.example.python.usdrt_mesh-0.0.1, omni.graph.core-2.184.7, omni.physx-108.0.4
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.graph.tools-1.79.3] (order: 0) Triggered by: omni.example.cpp.omnigraph_node-1.0.2
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.graph.core-2.184.7] (order: 0) Triggered by: omni.example.cpp.omnigraph_node-1.0.2
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kvdb-108.0.4] (order: 0) Triggered by: omni.localcache-108.0.4
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.localcache-108.0.4] (order: 0) Triggered by: omni.physx.cooking-108.0.4
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.physx.foundation-108.0.4] (order: 0) Triggered by: omni.physx-108.0.4, omni.physx.cooking-108.0.4
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.usdphysics-108.0.4] (order: 0) Triggered by: omni.physx-108.0.4, omni.physx.cooking-108.0.4
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.convexdecomposition-108.0.4] (order: 0) Triggered by: omni.physx.cooking-108.0.4
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.usd.layers-2.3.2] (order: 0) Triggered by: omni.kit.primitive.mesh-1.0.17, 
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.physics-108.0.4] (order: 0) Triggered by: omni.physics.stageupdate-108.0.4
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.physx.cooking-108.0.4] (order: 0) Triggered by: omni.physx-108.0.4
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.physics.stageupdate-108.0.4] (order: 0) Triggered by: omni.example.cpp.usd_physics-1.0.1
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.physx-108.0.4] (order: 0) Triggered by: omni.example.cpp.usd_physics-1.0.1
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.primitive.mesh-1.0.17] (order: 0) Triggered by: omni.example.cpp.usdrt-1.0.2, omni.example.python.usdrt-1.0.1, omni.example.python.usdrt_mesh-0.0.1
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.ui_query-1.1.8] (order: 0) Triggered by: omni.kit.ui_test-1.4.1
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.ext.plugin] Pulling extension: [ext: omni.kit.ui_test-1.4.1] (order: 0) Triggered by: exts.deps.generated-0.0.0
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.gpu_foundation-0.0.0+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: carb.windowing.plugins-1.0.0+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.pip_archive-0.0.0+5941509b.lx64.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,284ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.grpc.lib-1.0.0+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,285ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.blobkey-1.1.2+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,285ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.ujitso.default-1.0.0+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,285ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.metrics.core-0.0.3+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,285ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.assets.plugins-0.0.0+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,285ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.client-1.3.0+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,285ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.protobuf.lib-1.0.0+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,285ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.loop-default-0.2.2+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,285ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.gpu_foundation.shadercache.vulkan-1.0.0+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,285ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.renderer.init-0.0.0+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,285ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.pipapi-0.0.0+5941509b in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,286ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.stats-1.0.1+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,287ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696359233216] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.loop-default-0.2.2+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.loop-default-5da40730767db722
+2025-11-11T01:52:59Z [1,288ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696493450944] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/carb.windowing.plugins-1.0.0+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/carb.windowing.plugins-df37430ce7634c9c
+2025-11-11T01:52:59Z [1,288ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697013536448] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.pip_archive-0.0.0+5941509b.lx64.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.pip_archive-a98e3ee5d9b0b024
+2025-11-11T01:52:59Z [1,289ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696979965632] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.renderer.init-0.0.0+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.renderer.init-500d62e47ed86e08
+2025-11-11T01:52:59Z [1,289ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696485058240] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.gpu_foundation-0.0.0+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.gpu_foundation-caacbc150adadaa4
+2025-11-11T01:52:59Z [1,289ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696468272832] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.datastore-0.0.0+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.datastore-fbbb989b09d3e502
+2025-11-11T01:52:59Z [1,290ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696988358336] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.stats-1.0.1+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.stats-6d030d3d68e0ad65
+2025-11-11T01:52:59Z [1,290ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697120331456] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.grpc.lib-1.0.0+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.grpc.lib-d6fbd5e3973e534f
+2025-11-11T01:52:59Z [1,290ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696996751040] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.blobkey-1.1.2+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.blobkey-5e3406ced879caba
+2025-11-11T01:52:59Z [1,290ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697111938752] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.ujitso.default-1.0.0+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.ujitso.default-a210aa45d2389444
+2025-11-11T01:52:59Z [1,290ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696476665536] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.assets.plugins-0.0.0+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.assets.plugins-313c40a2e7f5057e
+2025-11-11T01:52:59Z [1,290ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697021929152] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.protobuf.lib-1.0.0+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.protobuf.lib-81029219ab0445fc
+2025-11-11T01:52:59Z [1,290ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697030321856] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.metrics.core-0.0.3+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.metrics.core-41cb58f881ff79c6
+2025-11-11T01:52:59Z [1,290ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697005143744] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.client-1.3.0+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.client-bb95f8fe18d543ab
+2025-11-11T01:52:59Z [1,291ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696459880128] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.pipapi-0.0.0+5941509b -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.pipapi-df6042f79649e975
+2025-11-11T01:52:59Z [1,291ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696451487424] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.gpu_foundation.shadercache.vulkan-1.0.0+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.gpu_foundation.shadercache.vulkan-bc662b933cfa51a8
+2025-11-11T01:52:59Z [1,292ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,293ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,293ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,293ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,294ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,294ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,294ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,294ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,294ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,294ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,294ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,294ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,295ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,295ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,295ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,295ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,297ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0128s
+2025-11-11T01:52:59Z [1,297ms] [Info] [omni.kit.app.plugin] [1.307s] Extension: `carb.windowing.plugins-1.0.0` was installed.
+2025-11-11T01:52:59Z [1,297ms] [Info] [omni.kit.app.plugin] [1.307s] Pulling extension: `omni.kit.commands-1.4.10` from the registry.
+2025-11-11T01:52:59Z [1,297ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.commands-1.4.10+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,298ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696493450944] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.commands-1.4.10+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.commands-0a8716a62413d848
+2025-11-11T01:52:59Z [1,299ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,300ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0145s
+2025-11-11T01:52:59Z [1,300ms] [Info] [omni.kit.app.plugin] [1.310s] Extension: `omni.kit.renderer.init-0.0.0` was installed.
+2025-11-11T01:52:59Z [1,300ms] [Info] [omni.kit.app.plugin] [1.310s] Pulling extension: `omni.physics.stageupdate-108.0.4` from the registry.
+2025-11-11T01:52:59Z [1,300ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] pull extension: omni.physics.stageupdate-108.0.4+108.0.0.lx64.r.cp312.u81f in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,301ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696979965632] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.physics.stageupdate-108.0.4+108.0.0.lx64.r.cp312.u81f -> /home/mateo/.local/share/ov/data/exts/v2/omni.physics.stageupdate-108.0.4+108.0.0.lx64.r.cp312.u81f
+2025-11-11T01:52:59Z [1,302ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,302ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0173s
+2025-11-11T01:52:59Z [1,302ms] [Info] [omni.kit.app.plugin] [1.313s] Extension: `omni.kit.loop-default-0.2.2` was installed.
+2025-11-11T01:52:59Z [1,302ms] [Info] [omni.kit.app.plugin] [1.313s] Pulling extension: `omni.physx-108.0.4` from the registry.
+2025-11-11T01:52:59Z [1,302ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] pull extension: omni.physx-108.0.4+108.0.0.lx64.r.cp312.u81f in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,304ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696359233216] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.physx-108.0.4+108.0.0.lx64.r.cp312.u81f -> /home/mateo/.local/share/ov/data/exts/v2/omni.physx-108.0.4+108.0.0.lx64.r.cp312.u81f
+2025-11-11T01:52:59Z [1,304ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,305ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0208s
+2025-11-11T01:52:59Z [1,305ms] [Info] [omni.kit.app.plugin] [1.315s] Extension: `omni.kit.pip_archive-0.0.0` was installed.
+2025-11-11T01:52:59Z [1,305ms] [Info] [omni.kit.app.plugin] [1.316s] Pulling extension: `omni.ui_query-1.1.8` from the registry.
+2025-11-11T01:52:59Z [1,305ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.ui_query-1.1.8+5941509b in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,307ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697013536448] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.ui_query-1.1.8+5941509b -> /home/mateo/.local/share/ov/data/exts/v2/omni.ui_query-76ba21ca9a587abe
+2025-11-11T01:52:59Z [1,307ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,308ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0241s
+2025-11-11T01:52:59Z [1,308ms] [Info] [omni.kit.app.plugin] [1.318s] Extension: `omni.datastore-0.0.0` was installed.
+2025-11-11T01:52:59Z [1,308ms] [Info] [omni.kit.app.plugin] [1.318s] Pulling extension: `omni.usd_resolver-1.0.0` from the registry.
+2025-11-11T01:52:59Z [1,308ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.usd_resolver-1.0.0+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,309ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696468272832] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd_resolver-1.0.0+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.usd_resolver-3ef747f3a2f5d4b2
+2025-11-11T01:52:59Z [1,310ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,311ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0272s
+2025-11-11T01:52:59Z [1,311ms] [Info] [omni.kit.app.plugin] [1.322s] Extension: `omni.gpu_foundation-0.0.0` was installed.
+2025-11-11T01:52:59Z [1,311ms] [Info] [omni.kit.app.plugin] [1.322s] Pulling extension: `omni.kit.actions.core-1.0.0` from the registry.
+2025-11-11T01:52:59Z [1,311ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.actions.core-1.0.0+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,313ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696485058240] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.actions.core-1.0.0+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.actions.core-8471c9bd821d3945
+2025-11-11T01:52:59Z [1,313ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,314ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0286s
+2025-11-11T01:52:59Z [1,314ms] [Info] [omni.kit.app.plugin] [1.325s] Extension: `omni.stats-1.0.1` was installed.
+2025-11-11T01:52:59Z [1,314ms] [Info] [omni.kit.app.plugin] [1.325s] Pulling extension: `usdrt.scenegraph-7.6.1` from the registry.
+2025-11-11T01:52:59Z [1,314ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: usdrt.scenegraph-7.6.1+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,316ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696988358336] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/usdrt.scenegraph-7.6.1+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/usdrt.scenegraph-7bedfc987f47b584
+2025-11-11T01:52:59Z [1,316ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,317ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0327s
+2025-11-11T01:52:59Z [1,317ms] [Info] [omni.kit.app.plugin] [1.328s] Extension: `omni.grpc.lib-1.0.0` was installed.
+2025-11-11T01:52:59Z [1,317ms] [Info] [omni.kit.app.plugin] [1.328s] Pulling extension: `omni.graph.core-2.184.7` from the registry.
+2025-11-11T01:52:59Z [1,317ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.graph.core-2.184.7+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,319ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697120331456] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.graph.core-2.184.7+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.graph.core-8fd1aac1acbfdb6e
+2025-11-11T01:52:59Z [1,319ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,320ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0358s
+2025-11-11T01:52:59Z [1,320ms] [Info] [omni.kit.app.plugin] [1.331s] Extension: `omni.blobkey-1.1.2` was installed.
+2025-11-11T01:52:59Z [1,320ms] [Info] [omni.kit.app.plugin] [1.331s] Pulling extension: `omni.kit.usd.layers-2.3.2` from the registry.
+2025-11-11T01:52:59Z [1,320ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.usd.layers-2.3.2+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,322ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696996751040] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.usd.layers-2.3.2+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.usd.layers-ebcbe7047b9ae122
+2025-11-11T01:52:59Z [1,322ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,323ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0382s
+2025-11-11T01:52:59Z [1,323ms] [Info] [omni.kit.app.plugin] [1.333s] Extension: `omni.ujitso.default-1.0.0` was installed.
+2025-11-11T01:52:59Z [1,323ms] [Info] [omni.kit.app.plugin] [1.333s] Pulling extension: `omni.graph.tools-1.79.3` from the registry.
+2025-11-11T01:52:59Z [1,323ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.graph.tools-1.79.3+5941509b in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,324ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697111938752] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.graph.tools-1.79.3+5941509b -> /home/mateo/.local/share/ov/data/exts/v2/omni.graph.tools-b0394130264792b1
+2025-11-11T01:52:59Z [1,324ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,325ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0401s
+2025-11-11T01:52:59Z [1,325ms] [Info] [omni.kit.app.plugin] [1.335s] Extension: `omni.assets.plugins-0.0.0` was installed.
+2025-11-11T01:52:59Z [1,325ms] [Info] [omni.kit.app.plugin] [1.335s] Pulling extension: `omni.localcache-108.0.4` from the registry.
+2025-11-11T01:52:59Z [1,325ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] pull extension: omni.localcache-108.0.4+108.0.0.lx64.r.cp312.u81f in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,326ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696476665536] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.localcache-108.0.4+108.0.0.lx64.r.cp312.u81f -> /home/mateo/.local/share/ov/data/exts/v2/omni.localcache-108.0.4+108.0.0.lx64.r.cp312.u81f
+2025-11-11T01:52:59Z [1,326ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,327ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0424s
+2025-11-11T01:52:59Z [1,327ms] [Info] [omni.kit.app.plugin] [1.338s] Extension: `omni.protobuf.lib-1.0.0` was installed.
+2025-11-11T01:52:59Z [1,327ms] [Info] [omni.kit.app.plugin] [1.338s] Pulling extension: `omni.physics-108.0.4` from the registry.
+2025-11-11T01:52:59Z [1,327ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] pull extension: omni.physics-108.0.4+108.0.0.lx64.r.cp312.u81f in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,329ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697021929152] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.physics-108.0.4+108.0.0.lx64.r.cp312.u81f -> /home/mateo/.local/share/ov/data/exts/v2/omni.physics-108.0.4+108.0.0.lx64.r.cp312.u81f
+2025-11-11T01:52:59Z [1,329ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,330ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0448s
+2025-11-11T01:52:59Z [1,330ms] [Info] [omni.kit.app.plugin] [1.340s] Extension: `omni.metrics.core-0.0.3` was installed.
+2025-11-11T01:52:59Z [1,330ms] [Info] [omni.kit.app.plugin] [1.340s] Pulling extension: `omni.kit.primitive.mesh-1.0.17` from the registry.
+2025-11-11T01:52:59Z [1,330ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.primitive.mesh-1.0.17+5941509b in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,331ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697030321856] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.primitive.mesh-1.0.17+5941509b -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.primitive.mesh-f5e22c3b09980656
+2025-11-11T01:52:59Z [1,331ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,332ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0470s
+2025-11-11T01:52:59Z [1,332ms] [Info] [omni.kit.app.plugin] [1.342s] Extension: `omni.client-1.3.0` was installed.
+2025-11-11T01:52:59Z [1,332ms] [Info] [omni.kit.app.plugin] [1.342s] Pulling extension: `omni.kit.renderer.imgui-2.0.6` from the registry.
+2025-11-11T01:52:59Z [1,332ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.renderer.imgui-2.0.6+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,333ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697005143744] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.renderer.imgui-2.0.6+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.renderer.imgui-0eb141ab7767c6d8
+2025-11-11T01:52:59Z [1,333ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,334ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0489s
+2025-11-11T01:52:59Z [1,334ms] [Info] [omni.kit.app.plugin] [1.345s] Extension: `omni.kit.pipapi-0.0.0` was installed.
+2025-11-11T01:52:59Z [1,334ms] [Info] [omni.kit.app.plugin] [1.345s] Pulling extension: `omni.kit.mainwindow-1.0.3` from the registry.
+2025-11-11T01:52:59Z [1,334ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.mainwindow-1.0.3+5941509b in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,336ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696459880128] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.mainwindow-1.0.3+5941509b -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.mainwindow-12147fbdbe307d5e
+2025-11-11T01:52:59Z [1,336ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,336ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0514s
+2025-11-11T01:52:59Z [1,337ms] [Info] [omni.kit.app.plugin] [1.347s] Extension: `omni.gpu_foundation.shadercache.vulkan-1.0.0` was installed.
+2025-11-11T01:52:59Z [1,337ms] [Info] [omni.kit.app.plugin] [1.347s] Pulling extension: `carb.audio-0.1.0` from the registry.
+2025-11-11T01:52:59Z [1,337ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: carb.audio-0.1.0+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,338ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696451487424] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/carb.audio-0.1.0+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/carb.audio-d6657dab52dc63d5
+2025-11-11T01:52:59Z [1,338ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,339ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0414s
+2025-11-11T01:52:59Z [1,339ms] [Info] [omni.kit.app.plugin] [1.349s] Extension: `omni.kit.commands-1.4.10` was installed.
+2025-11-11T01:52:59Z [1,339ms] [Info] [omni.kit.app.plugin] [1.349s] Pulling extension: `omni.usd.schema.physx-108.0.4` from the registry.
+2025-11-11T01:52:59Z [1,339ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] pull extension: omni.usd.schema.physx-108.0.4+108.0.0.lx64.r.cp312.u81f in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,340ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696493450944] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd.schema.physx-108.0.4+108.0.0.lx64.r.cp312.u81f -> /home/mateo/.local/share/ov/data/exts/v2/omni.usd.schema.physx-108.0.4+108.0.0.lx64.r.cp312.u81f
+2025-11-11T01:52:59Z [1,340ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,341ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0408s
+2025-11-11T01:52:59Z [1,341ms] [Info] [omni.kit.app.plugin] [1.351s] Extension: `omni.physics.stageupdate-108.0.4` was installed.
+2025-11-11T01:52:59Z [1,341ms] [Info] [omni.kit.app.plugin] [1.351s] Pulling extension: `omni.usdphysics-108.0.4` from the registry.
+2025-11-11T01:52:59Z [1,341ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] pull extension: omni.usdphysics-108.0.4+108.0.0.lx64.r.cp312.u81f in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,342ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696979965632] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usdphysics-108.0.4+108.0.0.lx64.r.cp312.u81f -> /home/mateo/.local/share/ov/data/exts/v2/omni.usdphysics-108.0.4+108.0.0.lx64.r.cp312.u81f
+2025-11-11T01:52:59Z [1,342ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,343ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0405s
+2025-11-11T01:52:59Z [1,343ms] [Info] [omni.kit.app.plugin] [1.353s] Extension: `omni.physx-108.0.4` was installed.
+2025-11-11T01:52:59Z [1,343ms] [Info] [omni.kit.app.plugin] [1.353s] Pulling extension: `omni.physx.cooking-108.0.4` from the registry.
+2025-11-11T01:52:59Z [1,343ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] pull extension: omni.physx.cooking-108.0.4+108.0.0.lx64.r.cp312.u81f in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,344ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696359233216] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.physx.cooking-108.0.4+108.0.0.lx64.r.cp312.u81f -> /home/mateo/.local/share/ov/data/exts/v2/omni.physx.cooking-108.0.4+108.0.0.lx64.r.cp312.u81f
+2025-11-11T01:52:59Z [1,344ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,345ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0398s
+2025-11-11T01:52:59Z [1,345ms] [Info] [omni.kit.app.plugin] [1.355s] Extension: `omni.ui_query-1.1.8` was installed.
+2025-11-11T01:52:59Z [1,345ms] [Info] [omni.kit.app.plugin] [1.355s] Pulling extension: `omni.kit.test-2.0.1` from the registry.
+2025-11-11T01:52:59Z [1,345ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.test-2.0.1+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,346ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697013536448] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.test-2.0.1+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.test-b4b22d2675d084dd
+2025-11-11T01:52:59Z [1,346ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,347ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0394s
+2025-11-11T01:52:59Z [1,347ms] [Info] [omni.kit.app.plugin] [1.358s] Extension: `omni.usd_resolver-1.0.0` was installed.
+2025-11-11T01:52:59Z [1,347ms] [Info] [omni.kit.app.plugin] [1.358s] Pulling extension: `omni.gpucompute.plugins-0.0.0` from the registry.
+2025-11-11T01:52:59Z [1,347ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.gpucompute.plugins-0.0.0+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,348ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696468272832] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.gpucompute.plugins-0.0.0+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.gpucompute.plugins-30411e2dbc35bcfc
+2025-11-11T01:52:59Z [1,348ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,349ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0379s
+2025-11-11T01:52:59Z [1,349ms] [Info] [omni.kit.app.plugin] [1.360s] Extension: `omni.kit.actions.core-1.0.0` was installed.
+2025-11-11T01:52:59Z [1,349ms] [Info] [omni.kit.app.plugin] [1.360s] Pulling extension: `omni.graph.exec-0.9.6` from the registry.
+2025-11-11T01:52:59Z [1,349ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.graph.exec-0.9.6+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,350ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696485058240] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.graph.exec-0.9.6+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.graph.exec-a9b7c5538057ce58
+2025-11-11T01:52:59Z [1,351ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,352ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0374s
+2025-11-11T01:52:59Z [1,352ms] [Info] [omni.kit.app.plugin] [1.362s] Extension: `usdrt.scenegraph-7.6.1` was installed.
+2025-11-11T01:52:59Z [1,352ms] [Info] [omni.kit.app.plugin] [1.362s] Pulling extension: `omni.timeline-1.1.0` from the registry.
+2025-11-11T01:52:59Z [1,352ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.timeline-1.1.0+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,353ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696988358336] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.timeline-1.1.0+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.timeline-703e83e154b4cb96
+2025-11-11T01:52:59Z [1,353ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,354ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0365s
+2025-11-11T01:52:59Z [1,354ms] [Info] [omni.kit.app.plugin] [1.364s] Extension: `omni.graph.core-2.184.7` was installed.
+2025-11-11T01:52:59Z [1,354ms] [Info] [omni.kit.app.plugin] [1.364s] Pulling extension: `omni.kit.ui_test-1.4.1` from the registry.
+2025-11-11T01:52:59Z [1,354ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.ui_test-1.4.1+5941509b in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,355ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697120331456] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.ui_test-1.4.1+5941509b -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.ui_test-b423db90aaaedd96
+2025-11-11T01:52:59Z [1,356ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,357ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0360s
+2025-11-11T01:52:59Z [1,357ms] [Info] [omni.kit.app.plugin] [1.367s] Extension: `omni.kit.usd.layers-2.3.2` was installed.
+2025-11-11T01:52:59Z [1,357ms] [Info] [omni.kit.app.plugin] [1.367s] Pulling extension: `omni.kit.uiapp-0.0.0` from the registry.
+2025-11-11T01:52:59Z [1,357ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.uiapp-0.0.0+5941509b in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,358ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696996751040] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.uiapp-0.0.0+5941509b -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.uiapp-9c47f1d908b37db2
+2025-11-11T01:52:59Z [1,358ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,359ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0357s
+2025-11-11T01:52:59Z [1,359ms] [Info] [omni.kit.app.plugin] [1.369s] Extension: `omni.graph.tools-1.79.3` was installed.
+2025-11-11T01:52:59Z [1,359ms] [Info] [omni.kit.app.plugin] [1.369s] Pulling extension: `omni.usd-1.13.13` from the registry.
+2025-11-11T01:52:59Z [1,359ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.usd-1.13.13+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,360ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697111938752] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd-1.13.13+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.usd-3ed80abf7db23484
+2025-11-11T01:52:59Z [1,360ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,361ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0363s
+2025-11-11T01:52:59Z [1,361ms] [Info] [omni.kit.app.plugin] [1.372s] Extension: `omni.localcache-108.0.4` was installed.
+2025-11-11T01:52:59Z [1,361ms] [Info] [omni.kit.app.plugin] [1.372s] Pulling extension: `omni.kvdb-108.0.4` from the registry.
+2025-11-11T01:52:59Z [1,361ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] pull extension: omni.kvdb-108.0.4+108.0.0.lx64.r.cp312.u81f in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,362ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696476665536] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kvdb-108.0.4+108.0.0.lx64.r.cp312.u81f -> /home/mateo/.local/share/ov/data/exts/v2/omni.kvdb-108.0.4+108.0.0.lx64.r.cp312.u81f
+2025-11-11T01:52:59Z [1,363ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,364ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0366s
+2025-11-11T01:52:59Z [1,364ms] [Info] [omni.kit.app.plugin] [1.374s] Extension: `omni.physics-108.0.4` was installed.
+2025-11-11T01:52:59Z [1,364ms] [Info] [omni.kit.app.plugin] [1.374s] Pulling extension: `omni.appwindow-1.2.0` from the registry.
+2025-11-11T01:52:59Z [1,364ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.appwindow-1.2.0+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,365ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697021929152] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.appwindow-1.2.0+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.appwindow-17c36dfeb8a83eae
+2025-11-11T01:52:59Z [1,365ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,366ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0367s
+2025-11-11T01:52:59Z [1,366ms] [Info] [omni.kit.app.plugin] [1.377s] Extension: `omni.kit.primitive.mesh-1.0.17` was installed.
+2025-11-11T01:52:59Z [1,366ms] [Info] [omni.kit.app.plugin] [1.377s] Pulling extension: `omni.kit.renderer.core-1.1.1` from the registry.
+2025-11-11T01:52:59Z [1,366ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.renderer.core-1.1.1+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,368ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697030321856] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.renderer.core-1.1.1+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.renderer.core-7ef416487ba57026
+2025-11-11T01:52:59Z [1,368ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,369ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0370s
+2025-11-11T01:52:59Z [1,369ms] [Info] [omni.kit.app.plugin] [1.379s] Extension: `omni.kit.renderer.imgui-2.0.6` was installed.
+2025-11-11T01:52:59Z [1,369ms] [Info] [omni.kit.app.plugin] [1.379s] Pulling extension: `omni.ui-2.27.2` from the registry.
+2025-11-11T01:52:59Z [1,369ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.ui-2.27.2+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,370ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697005143744] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.ui-2.27.2+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.ui-1e5c921932f1832f
+2025-11-11T01:52:59Z [1,370ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,371ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0369s
+2025-11-11T01:52:59Z [1,371ms] [Info] [omni.kit.app.plugin] [1.382s] Extension: `omni.kit.mainwindow-1.0.3` was installed.
+2025-11-11T01:52:59Z [1,371ms] [Info] [omni.kit.app.plugin] [1.382s] Pulling extension: `omni.usd.config-1.0.6` from the registry.
+2025-11-11T01:52:59Z [1,371ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.usd.config-1.0.6+5941509b in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,373ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696459880128] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd.config-1.0.6+5941509b -> /home/mateo/.local/share/ov/data/exts/v2/omni.usd.config-129a43aff56175ae
+2025-11-11T01:52:59Z [1,373ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,374ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0366s
+2025-11-11T01:52:59Z [1,374ms] [Info] [omni.kit.app.plugin] [1.384s] Extension: `carb.audio-0.1.0` was installed.
+2025-11-11T01:52:59Z [1,374ms] [Info] [omni.kit.app.plugin] [1.384s] Pulling extension: `omni.usd.schema.audio-0.0.0` from the registry.
+2025-11-11T01:52:59Z [1,374ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.usd.schema.audio-0.0.0+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,375ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696451487424] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd.schema.audio-0.0.0+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.usd.schema.audio-552af9f5df959a0a
+2025-11-11T01:52:59Z [1,375ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,376ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0373s
+2025-11-11T01:52:59Z [1,376ms] [Info] [omni.kit.app.plugin] [1.386s] Extension: `omni.usd.schema.physx-108.0.4` was installed.
+2025-11-11T01:52:59Z [1,376ms] [Info] [omni.kit.app.plugin] [1.386s] Pulling extension: `omni.physx.foundation-108.0.4` from the registry.
+2025-11-11T01:52:59Z [1,376ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] pull extension: omni.physx.foundation-108.0.4+108.0.0.lx64.r.cp312.u81f in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,377ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696493450944] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.physx.foundation-108.0.4+108.0.0.lx64.r.cp312.u81f -> /home/mateo/.local/share/ov/data/exts/v2/omni.physx.foundation-108.0.4+108.0.0.lx64.r.cp312.u81f
+2025-11-11T01:52:59Z [1,377ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,378ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0373s
+2025-11-11T01:52:59Z [1,378ms] [Info] [omni.kit.app.plugin] [1.388s] Extension: `omni.usdphysics-108.0.4` was installed.
+2025-11-11T01:52:59Z [1,378ms] [Info] [omni.kit.app.plugin] [1.388s] Pulling extension: `omni.kit.exec.core-0.13.4` from the registry.
+2025-11-11T01:52:59Z [1,378ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.exec.core-0.13.4+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,379ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696979965632] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.exec.core-0.13.4+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.exec.core-cd546312ee4c72a3
+2025-11-11T01:52:59Z [1,379ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,380ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0370s
+2025-11-11T01:52:59Z [1,380ms] [Info] [omni.kit.app.plugin] [1.390s] Extension: `omni.physx.cooking-108.0.4` was installed.
+2025-11-11T01:52:59Z [1,380ms] [Info] [omni.kit.app.plugin] [1.390s] Pulling extension: `omni.usd.core-1.5.4` from the registry.
+2025-11-11T01:52:59Z [1,380ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.usd.core-1.5.4+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,381ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696359233216] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd.core-1.5.4+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.usd.core-e25ab2a849e29248
+2025-11-11T01:52:59Z [1,381ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,383ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0374s
+2025-11-11T01:52:59Z [1,383ms] [Info] [omni.kit.app.plugin] [1.393s] Extension: `omni.kit.test-2.0.1` was installed.
+2025-11-11T01:52:59Z [1,383ms] [Info] [omni.kit.app.plugin] [1.393s] Pulling extension: `omni.cubric-0.1.0` from the registry.
+2025-11-11T01:52:59Z [1,383ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.cubric-0.1.0+5941509b.lx64.r in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,384ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697013536448] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.cubric-0.1.0+5941509b.lx64.r -> /home/mateo/.local/share/ov/data/exts/v2/omni.cubric-c6d2772f67741769
+2025-11-11T01:52:59Z [1,384ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,385ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0373s
+2025-11-11T01:52:59Z [1,385ms] [Info] [omni.kit.app.plugin] [1.395s] Extension: `omni.gpucompute.plugins-0.0.0` was installed.
+2025-11-11T01:52:59Z [1,385ms] [Info] [omni.kit.app.plugin] [1.395s] Pulling extension: `omni.convexdecomposition-108.0.4` from the registry.
+2025-11-11T01:52:59Z [1,386ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/default] pull extension: omni.convexdecomposition-108.0.4+108.0.0.lx64.r.cp312.u81f in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,386ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696468272832] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.convexdecomposition-108.0.4+108.0.0.lx64.r.cp312.u81f -> /home/mateo/.local/share/ov/data/exts/v2/omni.convexdecomposition-108.0.4+108.0.0.lx64.r.cp312.u81f
+2025-11-11T01:52:59Z [1,386ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,387ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0375s
+2025-11-11T01:52:59Z [1,387ms] [Info] [omni.kit.app.plugin] [1.397s] Extension: `omni.graph.exec-0.9.6` was installed.
+2025-11-11T01:52:59Z [1,387ms] [Info] [omni.kit.app.plugin] [1.397s] Pulling extension: `omni.usd.libs-1.0.1` from the registry.
+2025-11-11T01:52:59Z [1,387ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.usd.libs-1.0.1+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,388ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696485058240] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd.libs-1.0.1+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.usd.libs-91c9561ef136d258
+2025-11-11T01:52:59Z [1,388ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,389ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0373s
+2025-11-11T01:52:59Z [1,389ms] [Info] [omni.kit.app.plugin] [1.399s] Extension: `omni.timeline-1.1.0` was installed.
+2025-11-11T01:52:59Z [1,389ms] [Info] [omni.kit.app.plugin] [1.399s] Pulling extension: `omni.kit.renderer.capture-1.0.2` from the registry.
+2025-11-11T01:52:59Z [1,389ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.renderer.capture-1.0.2+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,390ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696988358336] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.renderer.capture-1.0.2+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.renderer.capture-1521e7a758d957bc
+2025-11-11T01:52:59Z [1,390ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,391ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0374s
+2025-11-11T01:52:59Z [1,391ms] [Info] [omni.kit.app.plugin] [1.402s] Extension: `omni.kit.ui_test-1.4.1` was installed.
+2025-11-11T01:52:59Z [1,391ms] [Info] [omni.kit.app.plugin] [1.402s] Pulling extension: `omni.uiaudio-1.0.0` from the registry.
+2025-11-11T01:52:59Z [1,391ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.uiaudio-1.0.0+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,393ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697120331456] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.uiaudio-1.0.0+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.uiaudio-e80c10ad870007e0
+2025-11-11T01:52:59Z [1,393ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,394ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0370s
+2025-11-11T01:52:59Z [1,394ms] [Info] [omni.kit.app.plugin] [1.404s] Extension: `omni.kit.uiapp-0.0.0` was installed.
+2025-11-11T01:52:59Z [1,394ms] [Info] [omni.kit.app.plugin] [1.404s] Pulling extension: `omni.usd.schema.omnigraph-1.0.0` from the registry.
+2025-11-11T01:52:59Z [1,394ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.usd.schema.omnigraph-1.0.0+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,395ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696996751040] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd.schema.omnigraph-1.0.0+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.usd.schema.omnigraph-5ef0ed9dad55cd1c
+2025-11-11T01:52:59Z [1,395ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,396ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0372s
+2025-11-11T01:52:59Z [1,396ms] [Info] [omni.kit.app.plugin] [1.406s] Extension: `omni.usd-1.13.13` was installed.
+2025-11-11T01:52:59Z [1,396ms] [Info] [omni.kit.app.plugin] [1.406s] Pulling extension: `omni.kit.usd_undo-0.1.8` from the registry.
+2025-11-11T01:52:59Z [1,396ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.usd_undo-0.1.8+5941509b in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,397ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133697111938752] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.usd_undo-0.1.8+5941509b -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.usd_undo-31d48c272d0be272
+2025-11-11T01:52:59Z [1,397ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,398ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0367s
+2025-11-11T01:52:59Z [1,398ms] [Info] [omni.kit.app.plugin] [1.408s] Extension: `omni.kvdb-108.0.4` was installed.
+2025-11-11T01:52:59Z [1,398ms] [Info] [omni.kit.app.plugin] [1.408s] Pulling extension: `omni.kit.audiodeviceenum-1.0.2` from the registry.
+2025-11-11T01:52:59Z [1,398ms] [Info] [omni.kit.registry.nucleus.utils.common] [kit/sdk] pull extension: omni.kit.audiodeviceenum-1.0.2+5941509b.lx64.r.cp312 in '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache'
+2025-11-11T01:52:59Z [1,399ms] [Info] [omni.kit.app._impl] [py stdout]: [omni.kit.registry.nucleus] [tid: 133696476665536] creating a link: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.audiodeviceenum-1.0.2+5941509b.lx64.r.cp312 -> /home/mateo/.local/share/ov/data/exts/v2/omni.kit.audiodeviceenum-67637def0cd299e7
+2025-11-11T01:52:59Z [1,399ms] [Info] [packman.link] Created symbolic link
+2025-11-11T01:52:59Z [1,400ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------------> func:pull_extension took: 0.0362s
+2025-11-11T01:52:59Z [1,400ms] [Info] [omni.kit.app.plugin] [1.411s] Extension: `omni.appwindow-1.2.0` was installed.
+2025-11-11T01:52:59Z [1,402ms] [Info] [omni.kit.registry.nucleus.utils.common] ---------------> func:pull_extension took: 0.0360s
+2025-11-11T01:52:59Z [1,402ms] [Info] [omni.kit.app.plugin] [1.413s] Extension: `omni.kit.renderer.core-1.1.1` was installed.
+2025-11-11T01:52:59Z [1,404ms] [Info] [omni.kit.registry.nucleus.utils.common] --------------> func:pull_extension took: 0.0353s
+2025-11-11T01:52:59Z [1,404ms] [Info] [omni.kit.app.plugin] [1.415s] Extension: `omni.ui-2.27.2` was installed.
+2025-11-11T01:52:59Z [1,406ms] [Info] [omni.kit.registry.nucleus.utils.common] -------------> func:pull_extension took: 0.0351s
+2025-11-11T01:52:59Z [1,406ms] [Info] [omni.kit.app.plugin] [1.417s] Extension: `omni.usd.config-1.0.6` was installed.
+2025-11-11T01:52:59Z [1,408ms] [Info] [omni.kit.registry.nucleus.utils.common] ------------> func:pull_extension took: 0.0345s
+2025-11-11T01:52:59Z [1,408ms] [Info] [omni.kit.app.plugin] [1.419s] Extension: `omni.usd.schema.audio-0.0.0` was installed.
+2025-11-11T01:52:59Z [1,411ms] [Info] [omni.kit.registry.nucleus.utils.common] -----------> func:pull_extension took: 0.0351s
+2025-11-11T01:52:59Z [1,411ms] [Info] [omni.kit.app.plugin] [1.421s] Extension: `omni.physx.foundation-108.0.4` was installed.
+2025-11-11T01:52:59Z [1,413ms] [Info] [omni.kit.registry.nucleus.utils.common] ----------> func:pull_extension took: 0.0351s
+2025-11-11T01:52:59Z [1,413ms] [Info] [omni.kit.app.plugin] [1.424s] Extension: `omni.kit.exec.core-0.13.4` was installed.
+2025-11-11T01:52:59Z [1,415ms] [Info] [omni.kit.registry.nucleus.utils.common] ---------> func:pull_extension took: 0.0353s
+2025-11-11T01:52:59Z [1,416ms] [Info] [omni.kit.app.plugin] [1.426s] Extension: `omni.usd.core-1.5.4` was installed.
+2025-11-11T01:52:59Z [1,418ms] [Info] [omni.kit.registry.nucleus.utils.common] --------> func:pull_extension took: 0.0350s
+2025-11-11T01:52:59Z [1,418ms] [Info] [omni.kit.app.plugin] [1.428s] Extension: `omni.cubric-0.1.0` was installed.
+2025-11-11T01:52:59Z [1,420ms] [Info] [omni.kit.registry.nucleus.utils.common] -------> func:pull_extension took: 0.0344s
+2025-11-11T01:52:59Z [1,420ms] [Info] [omni.kit.app.plugin] [1.430s] Extension: `omni.convexdecomposition-108.0.4` was installed.
+2025-11-11T01:52:59Z [1,422ms] [Info] [omni.kit.registry.nucleus.utils.common] ------> func:pull_extension took: 0.0354s
+2025-11-11T01:52:59Z [1,422ms] [Info] [omni.kit.app.plugin] [1.433s] Extension: `omni.usd.libs-1.0.1` was installed.
+2025-11-11T01:52:59Z [1,425ms] [Info] [omni.kit.registry.nucleus.utils.common] -----> func:pull_extension took: 0.0358s
+2025-11-11T01:52:59Z [1,425ms] [Info] [omni.kit.app.plugin] [1.435s] Extension: `omni.kit.renderer.capture-1.0.2` was installed.
+2025-11-11T01:52:59Z [1,427ms] [Info] [omni.kit.registry.nucleus.utils.common] ----> func:pull_extension took: 0.0358s
+2025-11-11T01:52:59Z [1,427ms] [Info] [omni.kit.app.plugin] [1.438s] Extension: `omni.uiaudio-1.0.0` was installed.
+2025-11-11T01:52:59Z [1,429ms] [Info] [omni.kit.registry.nucleus.utils.common] ---> func:pull_extension took: 0.0355s
+2025-11-11T01:52:59Z [1,429ms] [Info] [omni.kit.app.plugin] [1.440s] Extension: `omni.usd.schema.omnigraph-1.0.0` was installed.
+2025-11-11T01:52:59Z [1,432ms] [Info] [omni.kit.registry.nucleus.utils.common] --> func:pull_extension took: 0.0355s
+2025-11-11T01:52:59Z [1,432ms] [Info] [omni.kit.app.plugin] [1.442s] Extension: `omni.kit.usd_undo-0.1.8` was installed.
+2025-11-11T01:52:59Z [1,434ms] [Info] [omni.kit.registry.nucleus.utils.common] -> func:pull_extension took: 0.0355s
+2025-11-11T01:52:59Z [1,434ms] [Info] [omni.kit.app.plugin] [1.444s] Extension: `omni.kit.audiodeviceenum-1.0.2` was installed.
+2025-11-11T01:52:59Z [1,434ms] [Info] [omni.ext.plugin] Extension system targets:
+2025-11-11T01:52:59Z [1,434ms] [Info] [omni.ext.plugin]   kitHash: 5941509b
+2025-11-11T01:52:59Z [1,434ms] [Info] [omni.ext.plugin]   config: release
+2025-11-11T01:52:59Z [1,434ms] [Info] [omni.ext.plugin]   python: cp312
+2025-11-11T01:52:59Z [1,434ms] [Info] [omni.ext.plugin]   usd: u81f8+stock+25.02+cxx11
+2025-11-11T01:52:59Z [1,434ms] [Info] [omni.ext.plugin]   platform: linux-x86_64
+2025-11-11T01:52:59Z [1,434ms] [Info] [omni.ext.plugin]   kit: 108.0.0
+2025-11-11T01:52:59Z [1,434ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps/exts.deps.generated.kit' (path type: 1, dev: 0)
+2025-11-11T01:52:59Z [1,434ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache' (path type: 4, dev: 0)
+2025-11-11T01:52:59Z [1,434ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps' (path type: 0, dev: 0)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions' (path type: 0, dev: 0)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.cubric-0.1.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.cubric-0.1.0+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extsPhysics' (path type: 0, dev: 0)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.audiodeviceenum-1.0.2] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.audiodeviceenum-1.0.2+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: carb.windowing.plugins-1.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/carb.windowing.plugins-1.0.0+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.assets.plugins-0.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.assets.plugins-0.0.0+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.gpu_foundation.shadercache.vulkan-1.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.gpu_foundation.shadercache.vulkan-1.0.0+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/Documents/Kit/shared/exts' (path type: 0, dev: 0)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.blobkey-1.1.2] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.blobkey-1.1.2+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.pip_archive-0.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.pip_archive-0.0.0+5941509b.lx64.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.gpucompute.plugins-0.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.gpucompute.plugins-0.0.0+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore' (path type: 0, dev: 0)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.convexdecomposition-108.0.4] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.convexdecomposition-108.0.4+108.0.0.lx64.r.cp312.u81f)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.mainwindow-1.0.3] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.mainwindow-1.0.3+5941509b)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: carb.audio-0.1.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/carb.audio-0.1.0+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/exts' (path type: 0, dev: 0)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.datastore-0.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.datastore-0.0.0+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.graph.core-2.184.7] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.graph.core-2.184.7+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/apps' (path type: 0, dev: 0)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.gpu_foundation-0.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.gpu_foundation-0.0.0+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.stats-1.0.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.stats-1.0.1+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.uiapp-0.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.uiapp-0.0.0+5941509b)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.physics.stageupdate-108.0.4] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.physics.stageupdate-108.0.4+108.0.0.lx64.r.cp312.u81f)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.usd.schema.omnigraph-1.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd.schema.omnigraph-1.0.0+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.pipapi-0.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.pipapi-0.0.0+5941509b)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.localcache-108.0.4] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.localcache-108.0.4+108.0.0.lx64.r.cp312.u81f)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.usd_undo-0.1.8] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.usd_undo-0.1.8+5941509b)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.loop-default-0.2.2] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.loop-default-0.2.2+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.metrics.core-0.0.3] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.metrics.core-0.0.3+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.ui_query-1.1.8] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.ui_query-1.1.8+5941509b)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.primitive.mesh-1.0.17] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.primitive.mesh-1.0.17+5941509b)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.usd.core-1.5.4] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd.core-1.5.4+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.ujitso.default-1.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.ujitso.default-1.0.0+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.usd.layers-2.3.2] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.usd.layers-2.3.2+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.usd.schema.audio-0.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd.schema.audio-0.0.0+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.renderer.init-0.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.renderer.init-0.0.0+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.physics-108.0.4] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.physics-108.0.4+108.0.0.lx64.r.cp312.u81f)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.ui_test-1.4.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.ui_test-1.4.1+5941509b)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.uiaudio-1.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.uiaudio-1.0.0+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.exec.core-0.13.4] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.exec.core-0.13.4+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.actions.core-1.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.actions.core-1.0.0+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.renderer.capture-1.0.2] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.renderer.capture-1.0.2+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.client-1.3.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.client-1.3.0+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.renderer.core-1.1.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.renderer.core-1.1.1+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.test-2.0.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.test-2.0.1+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kvdb-108.0.4] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kvdb-108.0.4+108.0.0.lx64.r.cp312.u81f)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.usd.schema.physx-108.0.4] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd.schema.physx-108.0.4+108.0.0.lx64.r.cp312.u81f)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.usdphysics-108.0.4] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usdphysics-108.0.4+108.0.0.lx64.r.cp312.u81f)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.usd_resolver-1.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd_resolver-1.0.0+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.graph.tools-1.79.3] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.graph.tools-1.79.3+5941509b)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.protobuf.lib-1.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.protobuf.lib-1.0.0+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.physx.foundation-108.0.4] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.physx.foundation-108.0.4+108.0.0.lx64.r.cp312.u81f)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.usd-1.13.13] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd-1.13.13+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.graph.exec-0.9.6] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.graph.exec-0.9.6+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.grpc.lib-1.0.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.grpc.lib-1.0.0+5941509b.lx64.r)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.usd.config-1.0.6] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd.config-1.0.6+5941509b)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.timeline-1.1.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.timeline-1.1.0+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.renderer.imgui-2.0.6] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.renderer.imgui-2.0.6+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.kit.commands-1.4.10] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.kit.commands-1.4.10+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.physx-108.0.4] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.physx-108.0.4+108.0.0.lx64.r.cp312.u81f)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: usdrt.scenegraph-7.6.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/usdrt.scenegraph-7.6.1+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.appwindow-1.2.0] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.appwindow-1.2.0+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.physx.cooking-108.0.4] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.physx.cooking-108.0.4+108.0.0.lx64.r.cp312.u81f)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.usd.libs-1.0.1] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.usd.libs-1.0.1+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] [ext: omni.ui-2.27.2] registered (path: /home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache/omni.ui-2.27.2+5941509b.lx64.r.cp312)
+2025-11-11T01:52:59Z [1,435ms] [Info] [omni.ext.plugin] Extension precache successful! Exiting an app.
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin] Kit file: 'exts.deps.generated-0.0.0' (path: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps/exts.deps.generated.kit') already contains: 'settings/app/exts/enabled' key, skip version lock.
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.kit.app.plugin] No run loop was found, quitting...
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin] [ext manager] preferLocalVersions: 1
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin] Extension system targets:
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin]   kitHash: 5941509b
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin]   config: release
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin]   python: cp312
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin]   usd: u81f8+stock+25.02+cxx11
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin]   platform: linux-x86_64
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin]   kit: 108.0.0
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps/exts.deps.generated.kit' (path type: 1, dev: 0)
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/_build/linux-x86_64/release/extscache' (path type: 4, dev: 0)
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/apps' (path type: 0, dev: 0)
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/github/h12_sim_exts/kit-extension-template-cpp/source/extensions' (path type: 0, dev: 0)
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extsPhysics' (path type: 0, dev: 0)
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/Documents/Kit/shared/exts' (path type: 0, dev: 0)
+2025-11-11T01:52:59Z [1,436ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/extscore' (path type: 0, dev: 0)
+2025-11-11T01:52:59Z [1,437ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/exts' (path type: 0, dev: 0)
+2025-11-11T01:52:59Z [1,437ms] [Info] [omni.ext.plugin] Searching for extensions in: '/home/mateo/.cache/packman/chk/kit-kernel/108.0.0+feature.221586.5941509b.gl.manylinux_2_35_x86_64.release/apps' (path type: 0, dev: 0)
+2025-11-11T01:52:59Z [1,437ms] [Info] [omni.kit.app.plugin] Application auto-quits as it worked for the specified number of frames: 0
+2025-11-11T01:52:59Z [1,437ms] [Info] [omni.kit.app.plugin] app started
+2025-11-11T01:52:59Z [1,437ms] [Info] [carb.crashreporter-breakpad.plugin] enabled: false
