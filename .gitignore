@@ -16,6 +16,7 @@ kit-extension-template-cpp/repo.toml
 kit-extension-template-cpp/VERSION.md
 kit-extension-template-cpp/_build
 kit-extension-template-cpp/_repo
+kit-extension-template-cpp/_compiler
 
 kit-extension-template-cpp/source/apps
 kit-extension-template-cpp/source/extensions/omni.example.cpp.actions
