@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# But not the source directory and its contents
+!source/
+!source/extensions/
+!source/extensions/**
+
+# Also don't ignore .gitignore itself
+!.gitignore
+
+source/extensions/**/*omni*
+source/extensions/**/*omni*/**
