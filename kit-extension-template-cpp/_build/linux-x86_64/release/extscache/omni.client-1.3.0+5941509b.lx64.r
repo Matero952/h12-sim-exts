@@ -1,1 +1,0 @@
-/home/mateo/.local/share/ov/data/exts/v2/omni.client-bb95f8fe18d543ab

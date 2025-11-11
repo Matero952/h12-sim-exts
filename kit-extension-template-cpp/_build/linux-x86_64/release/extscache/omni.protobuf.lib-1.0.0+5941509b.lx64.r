@@ -1,1 +1,0 @@
-/home/mateo/.local/share/ov/data/exts/v2/omni.protobuf.lib-81029219ab0445fc

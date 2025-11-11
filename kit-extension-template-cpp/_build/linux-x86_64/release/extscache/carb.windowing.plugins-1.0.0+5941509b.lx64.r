@@ -1,1 +1,0 @@
-/home/mateo/.local/share/ov/data/exts/v2/carb.windowing.plugins-df37430ce7634c9c

@@ -1,1 +1,0 @@
-/home/mateo/.local/share/ov/data/exts/v2/omni.gpucompute.plugins-30411e2dbc35bcfc
