@@ -30,19 +30,48 @@ namespace cpp {
                             omni::kit::kGlobalEventPostUpdate,
                             [this](const carb::eventdispatcher::Event& e) {onUpdate(); });
                 }
+                std::cout << "1111111";
                 bootstrapAssets();
+                std::cout << "222222";
             }
             
             void bootstrapAssets() {
-                if (std::getenv("H12_ASSETS_PATH") == std::string("")) {
-                    throw std::runtime_error("'H12_ASSETS_PATH' is not set. Please clone the github repository and set the H12_ASSETS_PATH to its location.");
+                std::cout << "44444";
+                if (!std::getenv("H12_ASSETS_PATH")) {
+                    std::cout << "H12_ASSETS_PATH IS A NULLPTR";
                 }
                 else {
-                    std::ifstream fooFile(std::getenv("H12_ASSETS_PATH") + std::string("/README.md"));
-                    if (!fooFile.is_open()) {
-                        throw std::runtime_error(std::getenv("H12_ASSETS_PATH") + std::string("is not the correct path."));
-                    }
+                    std::cout << "H12_ASSETS_PATH IS NOT A NULLPTR";
                 }
+                // try {
+                //     std::string foo = std::string(std::getenv("H12_ASSETS_PATH"));
+                // }
+                // catch (std::logic_error& e) {
+                //     std::cout << e.what();
+                //     printf("H12_ASSETS_PATH IS NOT SET");
+                // }
+                
+                // const char* foo = std::getenv("H12_ASSETS_PATH");
+                // std::cout << foo;
+                // const char* readme = "/README.md";
+                // std::cout << foo;
+                // std::cout << readme;
+                // std::string h12AssetsPathString = foo;
+                std::cout << "333333";
+                // if (foo == "") {
+                //     std::cout << "'H12_ASSETS_PATH' is not set. Please clone the github repository and set the H12_ASSETS_PATH to its location.";
+                //     // throw std::runtime_error("'H12_ASSETS_PATH' is not set. Please clone the github repository and set the H12_ASSETS_PATH to its location.");
+                // }
+                // else {
+                //     std::ifstream fooFile(foo + readme);
+                //     std::cout << "44444444";
+                //     if (!fooFile.is_open()) {
+                //         std::cout << ((typeid(std::getenv("H12_ASSETS_PATH")).name()));
+                //         // printf(typeid)
+                //         // printf((std::getenv("H12_ASSETS_PATH")) + std::string("is not the correct path."));
+                //         // throw std::runtime_error(std::getenv("H12_ASSETS_PATH") + std::string("is not the correct path."));
+                //     }
+                // }
             }
 
             // bool checkAssetsExist(const char* h12AssetsRepoPath) {
@@ -64,14 +93,14 @@ namespace cpp {
             }
 
             void onUpdate() {
-                if (m_updateCounter % 1000 == 0) {
-                    std::cout << "Hi from the H12 Assets Extensi";
-                    // if (errorWasThrown) {
-                    //     printf("ERROR WAS THROWN");
-                    // }
+                // if (m_updateCounter % 1000 == 0) {
+                //     std::cout << "Hi from the H12 Assets Extensi";
+                //     // if (errorWasThrown) {
+                //     //     printf("ERROR WAS THROWN");
+                //     // }
 
-                    // printf("Hi from the H12 Assets Extenson! %d updates counted. \n", m_updateCounter);
-                }
+                //     // printf("Hi from the H12 Assets Extenson! %d updates counted. \n", m_updateCounter);
+                // }
             }
         
         private:

@@ -17,3 +17,4 @@ project_ext_plugin(ext, "h12_assets_ext.cpp.plugin")
     add_files("source", "plugins/"..plugin_name)
     includedirs { "plugins/"..plugin_name }
     exceptionhandling "On"
+    rtti "On"
