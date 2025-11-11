@@ -9,5 +9,6 @@
 # Also don't ignore .gitignore itself
 !.gitignore
 
-source/extensions/**/*omni*
-source/extensions/**/*omni*/**
+# source/extensions/**/*omni*
+# source/extensions/**/*omni*/**
+!source/extensions/h12_asset_ext
