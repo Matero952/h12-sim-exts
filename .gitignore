@@ -1,14 +1,32 @@
-# Ignore everything
-*
+kit-extension-template-cpp/.vscode
+kit-extension-template-cpp/deps
+kit-extension-template-cpp/images
+kit-extension-template-cpp/tools
+kit-extension-template-cpp/.gitattributes
+kit-extension-template-cpp/build.bat
+kit-extension-template-cpp/build.sh
+kit-extension-template-cpp/index.rst
+kit-extension-template-cpp/LICENSE
+kit-extension-template-cpp/PACKAGE-INFO.yaml
+kit-extension-template-cpp/premake5.lua
+kit-extension-template-cpp/README.md
+kit-extension-template-cpp/repo.bat
+kit-extension-template-cpp/repo.sh
+kit-extension-template-cpp/repo.toml
+kit-extension-template-cpp/VERSION.md
 
-# But not the source directory and its contents
-!source/
-!source/extensions/
-!source/extensions/**
-
-# Also don't ignore .gitignore itself
-!.gitignore
-
-# source/extensions/**/*omni*
-# source/extensions/**/*omni*/**
-!source/extensions/h12_asset_ext
+kit-extension-template-cpp/source/apps
+kit-extension-template-cpp/source/extensions/omni.example.cpp.actions
+kit-extension-template-cpp/source/extensions/omni.example.cpp.commands
+kit-extension-template-cpp/source/extensions/omni.example.cpp.hello_world
+kit-extension-template-cpp/source/extensions/omni.example.cpp.omnigraph_node
+kit-extension-template-cpp/source/extensions/omni.example.cpp.pybind
+kit-extension-template-cpp/source/extensions/omni.example.cpp.tasking
+kit-extension-template-cpp/source/extensions/omni.example.cpp.ui_widget
+kit-extension-template-cpp/source/extensions/omni.example.cpp.usd
+kit-extension-template-cpp/source/extensions/omni.example.cpp.usd_physics
+kit-extension-template-cpp/source/extensions/omni.example.cpp.usdrt
+kit-extension-template-cpp/source/extensions/omni.example.python.hello_world
+kit-extension-template-cpp/source/extensions/omni.example.python.ui
+kit-extension-template-cpp/source/extensions/omni.example.python.usdrt
+kit-extension-template-cpp/source/extensions/omni.example.python.usdrt_mesh
