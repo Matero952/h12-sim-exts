@@ -3,16 +3,14 @@
 #include <omni/ext/IExt.h>
 #include <omni/kit/IApp.h>
 #include <carb/eventdispatcher/IEventDispatcher.h>
-
 #include <cstdlib>
 #include <iostream>
-// #include <stdexcept>
-#include <fstream>
+#include <unistd.h>
 
 const struct carb::PluginImplDesc pluginImplDesc = { "h12_assets_ext.cpp.plugin",
                                                      "The extension to load assets for h12-sim", "Matero952",
                                                      carb::PluginHotReload::eEnabled, "dev" };
-CARB_PLUGIN_IMPL_DEPS(carb::eventdispatcher::IEventDispatcher)
+CARB_PLUGIN_IMPL_DEPS(carb::eventdispatcher::IEventDispatcher);
 // const std::string h12AssetsEnvVar = "H12_ASSETS_PATH";
 // const char* pH12AssestsEnvVar = (h12AssetsEnvVar.c_str());
 // bool errorWasThrown = false;
@@ -39,10 +37,43 @@ namespace cpp {
                 std::cout << "44444";
                 if (!std::getenv("H12_ASSETS_PATH")) {
                     std::cout << "H12_ASSETS_PATH IS A NULLPTR";
+                    raise(SIGTERM);
                 }
                 else {
-                    std::cout << "H12_ASSETS_PATH IS NOT A NULLPTR";
+                    std::cout << "[INFO] H12_ASSETS_PATH is set to " << std::getenv("H12_ASSETS_PATH");
+                    if (!assetsExist(std::getenv("H12_ASSEtS_PATH"))) {
+                      std::string& filePath = __FILE__;
+                      std::string parentDir = h_getParentPath(filePath);
+                       // std::filesystem::path foo(filePath);
+                       // const char* scriptSourceDir = foo.parent_path();
+                       // std::string scriptPath = std::string(scriptSourceDir) + "/get_assets.sh";
+                       // system(scriptPath.c_str()); 
+                      }
                 }
+              }
+
+            std::string h_getParentPath(std::string& filePath) {
+              int foo = 0
+              for (i; i < filePath.len(); ++i) {
+                  if (filePath[filePath.len() - i] == "/") {
+                    break;
+                  }
+                  else {
+                    continue;
+                  }
+              }
+              return std::string(filePath[0:foo]);
+
+            }
+
+            bool assetsExist(const char* h12_assets_path) {
+               const char* fooTest = "assets/drill/readme.txt";
+               std::ifstream fooFile(std::string(h12_assets_path) + std::string(fooTest));
+               if (!fooFile.is_open()){
+                 return false;
+               }
+               return true;
+              }
                 // try {
                 //     std::string foo = std::string(std::getenv("H12_ASSETS_PATH"));
                 // }
@@ -57,7 +88,6 @@ namespace cpp {
                 // std::cout << foo;
                 // std::cout << readme;
                 // std::string h12AssetsPathString = foo;
-                std::cout << "333333";
                 // if (foo == "") {
                 //     std::cout << "'H12_ASSETS_PATH' is not set. Please clone the github repository and set the H12_ASSETS_PATH to its location.";
                 //     // throw std::runtime_error("'H12_ASSETS_PATH' is not set. Please clone the github repository and set the H12_ASSETS_PATH to its location.");
@@ -72,7 +102,7 @@ namespace cpp {
                 //         // throw std::runtime_error(std::getenv("H12_ASSETS_PATH") + std::string("is not the correct path."));
                 //     }
                 // }
-            }
+            
 
             // bool checkAssetsExist(const char* h12AssetsRepoPath) {
             //     if (std::getenv(h12AssetsRepoPath)) {
@@ -93,14 +123,6 @@ namespace cpp {
             }
 
             void onUpdate() {
-                // if (m_updateCounter % 1000 == 0) {
-                //     std::cout << "Hi from the H12 Assets Extensi";
-                //     // if (errorWasThrown) {
-                //     //     printf("ERROR WAS THROWN");
-                //     // }
-
-                //     // printf("Hi from the H12 Assets Extenson! %d updates counted. \n", m_updateCounter);
-                // }
             }
         
         private:
@@ -110,7 +132,7 @@ namespace cpp {
 }
 }
 
-CARB_PLUGIN_IMPL(pluginImplDesc, h12_assets_ext::cpp::H12AssetsExtension)
+CARB_PLUGIN_IMPL(pluginImplDesc, h12_assets_ext::cpp::H12AssetsExtension);
 
 
 
